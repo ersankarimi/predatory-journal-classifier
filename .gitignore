@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pkl
+*.egg
+*.egg-info
+dist/
+build/
+*.log
+
+# PyCharm
+.idea/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Package distribution
+*.tar.gz
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+env/
+venv/
+
+# Configuration files
+*.env
