@@ -31,3 +31,13 @@ venv/
 
 # Configuration files
 *.env
+
+# Ignore all log files except those in temp_data
+!temp_data/*.log
+
+# Ignore all JSON and CSV files globally (if needed) except in temp_data
+*.json
+*.csv
+!temp_data/*.json
+!temp_data/*.csv
+
