@@ -172,7 +172,16 @@ Akurasi: 0.9202
 ### 30 Menit
 
 ```bash
-NOTE: Change this!!!
+              precision    recall  f1-score   support
+
+Non-Predator     0.9687    0.9096    0.9382      2964
+    Predator     0.4058    0.6778    0.5076       270
+
+    accuracy                         0.8902      3234
+   macro avg     0.6873    0.7937    0.7229      3234
+weighted avg     0.9217    0.8902    0.9023      3234
+
+Akurasi: 0.8902
 ```
 
 ### 45 Menit
