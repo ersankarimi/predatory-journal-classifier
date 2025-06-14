@@ -1,0 +1,43 @@
+2025-05-07 02:43:46,271 - root - INFO - ================================================================================
+2025-05-07 02:43:46,271 - root - INFO - 🚀 MEMULAI PELATIHAN MODEL: DFS_RANDOM_120MIN
+2025-05-07 02:43:46,271 - root - INFO - ================================================================================
+2025-05-07 02:43:46,287 - root - INFO - ✅ Data berhasil dimuat. X shape: (25206, 100), y shape: (25206,)
+2025-05-07 02:43:46,287 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-05-07 02:43:46
+2025-05-07 02:43:46,287 - root - INFO - 🔍 Memulai training model...
+2025-05-07 04:43:47,347 - root - INFO - ✅ Training selesai!
+2025-05-07 04:43:47,347 - root - INFO - ⏳ TOTAL WAKTU PELATIHAN: 7201.06 detik (120.02 menit)
+2025-05-07 04:43:47,347 - root - INFO - ⌛ Pelatihan selesai pada: 2025-05-07 04:43:47
+2025-05-07 04:43:51,414 - root - INFO - ✅ Model disimpan ke 8_classification_random/dfs_random_120min/dfs_random_120min_model.pkl
+2025-05-07 04:43:51,414 - root - INFO - 🏆 Leaderboard Model:
+2025-05-07 04:43:51,418 - root - INFO - 
+          rank  ensemble_weight         type      cost    duration
+model_id                                                          
+12           1             0.18  extra_trees  0.004208   25.317047
+157          2             0.14  extra_trees  0.004448   24.072495
+175          3             0.14  extra_trees  0.004568   24.635489
+158          4             0.02  extra_trees  0.004689   25.425306
+177          5             0.02  extra_trees  0.004689   23.978132
+166          6             0.02  extra_trees  0.004809   27.336762
+51           7             0.48     adaboost  0.006853  118.378325
+2025-05-07 04:43:51,427 - root - INFO - 💡 Ensemble Model:
+2025-05-07 04:43:51,439 - root - INFO - 
+None
+2025-05-07 04:43:51,444 - root - INFO - ✅ Data berhasil dimuat. X shape: (3420, 100), y shape: (3420,)
+2025-05-07 04:43:51,444 - root - INFO - ================================================================================
+2025-05-07 04:43:51,444 - root - INFO - 📌 Memulai Pengujian Model: dfs_random_120min
+2025-05-07 04:43:51,445 - root - INFO - ================================================================================
+2025-05-07 04:43:58,626 - root - INFO - 📊 Hasil Evaluasi Model dfs_random_120min:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9383    0.9895    0.9632      3151
+    Predator     0.6598    0.2379    0.3497       269
+
+    accuracy                         0.9304      3420
+   macro avg     0.7991    0.6137    0.6565      3420
+weighted avg     0.9164    0.9304    0.9150      3420
+
+2025-05-07 04:43:58,627 - root - INFO - 🎯 Akurasi Model: 0.9304
+2025-05-07 04:43:58,629 - root - INFO - 💾 Laporan hasil disimpan di: 8_classification_random/dfs_random_120min/dfs_random_120min_classification_report.txt
+2025-05-07 04:43:58,629 - root - INFO - ================================================================================
+2025-05-07 04:43:58,629 - root - INFO - ✅ Selesai
+2025-05-07 04:43:58,629 - root - INFO - ================================================================================

@@ -1,0 +1,24 @@
+2025-06-14 11:39:43,241 - INFO - ================================================================================
+2025-06-14 11:39:43,241 - INFO - === Memulai proses pembagian data ===
+2025-06-14 11:39:43,241 - INFO - ================================================================================
+2025-06-14 11:39:43,241 - INFO - ================================================================================
+2025-06-14 11:39:43,241 - INFO - Memuat data dari 4_preprocess_scraped_data/4_bfs_preprocess_scraped_data.json...
+2025-06-14 11:39:45,431 - INFO - Total data dalam 4_preprocess_scraped_data/4_bfs_preprocess_scraped_data.json: 16170 entri
+2025-06-14 11:39:45,431 - INFO -   - Jurnal predator: 1350
+2025-06-14 11:39:45,431 - INFO -   - Jurnal non-predator: 14820
+2025-06-14 11:39:45,431 - INFO - Memulai pembagian data untuk 5_bfs...
+2025-06-14 11:39:48,502 - INFO - Data 5_bfs berhasil dibagi:
+2025-06-14 11:39:48,502 - INFO -   - Train = 12936 (Predator: 1080, Non-Predator: 11856)
+2025-06-14 11:39:48,502 - INFO -   - Test  = 3234 (Predator: 270, Non-Predator: 2964)
+2025-06-14 11:39:48,503 - INFO - ================================================================================
+2025-06-14 11:39:48,503 - INFO - Memuat data dari 4_preprocess_scraped_data/4_dfs_preprocess_scraped_data.json...
+2025-06-14 11:39:50,790 - INFO - Total data dalam 4_preprocess_scraped_data/4_dfs_preprocess_scraped_data.json: 16170 entri
+2025-06-14 11:39:50,790 - INFO -   - Jurnal predator: 1350
+2025-06-14 11:39:50,790 - INFO -   - Jurnal non-predator: 14820
+2025-06-14 11:39:50,920 - INFO - Memulai pembagian data untuk 5_dfs...
+2025-06-14 11:39:53,950 - INFO - Data 5_dfs berhasil dibagi:
+2025-06-14 11:39:53,950 - INFO -   - Train = 12936 (Predator: 1080, Non-Predator: 11856)
+2025-06-14 11:39:53,950 - INFO -   - Test  = 3234 (Predator: 270, Non-Predator: 2964)
+2025-06-14 11:39:53,951 - INFO - ================================================================================
+2025-06-14 11:39:53,951 - INFO - === Proses pembagian data selesai ===
+2025-06-14 11:39:53,951 - INFO - ================================================================================

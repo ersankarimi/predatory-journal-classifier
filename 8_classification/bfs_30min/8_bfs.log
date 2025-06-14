@@ -1,0 +1,58 @@
+2025-06-14 18:07:52,363 - root - INFO - ================================================================================
+2025-06-14 18:07:52,363 - root - INFO - 🚀 MULAI TRAINING MODEL: BFS | Durasi: 30 Menit
+2025-06-14 18:07:52,363 - root - INFO - ================================================================================
+2025-06-14 18:07:52,371 - root - INFO - ✅ Data dimuat. X shape: (21690, 100), y shape: (21690,)
+2025-06-14 18:07:52,372 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 18:07:52
+2025-06-14 18:07:52,372 - root - INFO - 🔍 Training model...
+2025-06-14 18:37:55,442 - root - INFO - ✅ Training selesai!
+2025-06-14 18:37:55,442 - root - INFO - ⏳ TOTAL WAKTU: 1803.07 detik (30.05 menit)
+2025-06-14 18:38:05,896 - root - INFO - ✅ Model disimpan ke 8_classification/bfs_30min/8_bfs_model.pkl
+2025-06-14 18:38:05,898 - root - INFO - 🏆 Leaderboard:
+2025-06-14 18:38:05,902 - root - INFO - 
+          rank  ensemble_weight                 type      cost    duration
+model_id                                                                  
+86           1             0.06  k_nearest_neighbors  0.007265   39.389450
+58           3             0.02  k_nearest_neighbors  0.007684   39.975596
+79           2             0.02  k_nearest_neighbors  0.007684   49.073518
+17           4             0.28          extra_trees  0.011316   30.484206
+48           5             0.08          extra_trees  0.012713   16.178699
+82           6             0.02  k_nearest_neighbors  0.013551    9.103481
+2            7             0.04        random_forest  0.016345  114.298307
+38           8             0.02  k_nearest_neighbors  0.016764    4.327491
+76           9             0.02  k_nearest_neighbors  0.018022   23.069124
+75          10             0.02  k_nearest_neighbors  0.019978   23.932566
+9           11             0.02          extra_trees  0.022772   21.488474
+66          12             0.02  k_nearest_neighbors  0.024867    8.519372
+24          13             0.04                  mlp  0.025007   64.940326
+52          14             0.02  k_nearest_neighbors  0.025426    4.483159
+55          15             0.02          extra_trees  0.029478   10.936905
+11          16             0.02        random_forest  0.031014   29.176372
+43          17             0.02          extra_trees  0.057698  101.950070
+33          18             0.02        random_forest  0.060911   46.282335
+51          19             0.02          extra_trees  0.080050    8.927727
+60          20             0.02        random_forest  0.091646   22.805931
+26          21             0.16             adaboost  0.094579  146.864243
+20          22             0.02                  qda  0.177284    1.495799
+8           23             0.02                  lda  0.202012    3.064210
+2025-06-14 18:38:05,919 - root - INFO - 💡 Model Ensemble:
+2025-06-14 18:38:05,953 - root - INFO - 
+None
+2025-06-14 18:38:05,957 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 18:38:05,957 - root - INFO - ================================================================================
+2025-06-14 18:38:05,957 - root - INFO - 📌 Evaluasi Model: bfs
+2025-06-14 18:38:05,957 - root - INFO - ================================================================================
+2025-06-14 18:38:15,570 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9825    0.9092    0.9445      2964
+    Predator     0.4521    0.8222    0.5834       270
+
+    accuracy                         0.9020      3234
+   macro avg     0.7173    0.8657    0.7639      3234
+weighted avg     0.9382    0.9020    0.9143      3234
+
+2025-06-14 18:38:15,572 - root - INFO - 🎯 Akurasi: 0.9020
+2025-06-14 18:38:15,573 - root - INFO - 💾 Laporan disimpan di: 8_classification/bfs_30min/8_bfs_classification_report.txt
+2025-06-14 18:38:15,574 - root - INFO - ================================================================================
+2025-06-14 18:38:15,575 - root - INFO - ✅ Selesai
+2025-06-14 18:38:15,575 - root - INFO - ================================================================================

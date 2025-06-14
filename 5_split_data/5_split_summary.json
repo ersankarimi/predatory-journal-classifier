@@ -1,0 +1,36 @@
+{
+  "bfs": {
+    "total": {
+      "entries": 16170,
+      "predatory": 1350,
+      "non_predatory": 14820
+    },
+    "train": {
+      "size": 12936,
+      "predatory": 1080,
+      "non_predatory": 11856
+    },
+    "test": {
+      "size": 3234,
+      "predatory": 270,
+      "non_predatory": 2964
+    }
+  },
+  "dfs": {
+    "total": {
+      "entries": 16170,
+      "predatory": 1350,
+      "non_predatory": 14820
+    },
+    "train": {
+      "size": 12936,
+      "predatory": 1080,
+      "non_predatory": 11856
+    },
+    "test": {
+      "size": 3234,
+      "predatory": 270,
+      "non_predatory": 2964
+    }
+  }
+}

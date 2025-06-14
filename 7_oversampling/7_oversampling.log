@@ -1,0 +1,42 @@
+2025-06-14 11:55:34,725 - INFO - ================================================================================
+2025-06-14 11:55:34,725 - INFO - === Memulai Proses Oversampling Data ===
+2025-06-14 11:55:34,725 - INFO - ================================================================================
+2025-06-14 11:55:34,725 - INFO - ================================================================================
+2025-06-14 11:55:34,725 - INFO - 🚀 Memproses metode: BFS
+2025-06-14 11:55:34,725 - INFO - ================================================================================
+2025-06-14 11:55:34,725 - INFO - 📥 Memuat label dari 5_split_data/5_bfs_train.json...
+2025-06-14 11:55:36,181 - INFO - ✅ Total label: 12936
+2025-06-14 11:55:36,296 - INFO - 📥 Memuat vektor dari 6_vectorized_journal_data/6_bfs_train_vectors.npy...
+2025-06-14 11:55:36,302 - INFO - ✅ Shape vektor: (12936, 100)
+2025-06-14 11:55:36,303 - INFO - 📊 **Distribusi Data - Sebelum Oversampling**
+2025-06-14 11:55:36,303 - INFO -    - Jurnal Predator      : 1080
+2025-06-14 11:55:36,303 - INFO -    - Jurnal Non-Predator  : 11856
+2025-06-14 11:55:36,303 - INFO - ⚙️ **Proses Oversampling Menggunakan SMOTEENN...**
+2025-06-14 11:55:37,313 - INFO - ✅ Oversampling selesai.
+2025-06-14 11:55:37,313 - INFO - 📊 **Distribusi Data - Setelah Oversampling**
+2025-06-14 11:55:37,313 - INFO -    - Jurnal Predator      : 11823
+2025-06-14 11:55:37,313 - INFO -    - Jurnal Non-Predator  : 9867
+2025-06-14 11:55:37,321 - INFO - 💾 **Hasil Oversampling Disimpan:**
+2025-06-14 11:55:37,321 - INFO -    → Vektor   : 7_oversampling/7_bfs_train_vectors_oversampled.npy
+2025-06-14 11:55:37,321 - INFO -    → Label    : 7_oversampling/7_bfs_train_labels_oversampled.npy
+2025-06-14 11:55:37,321 - INFO - ================================================================================
+2025-06-14 11:55:37,321 - INFO - 🚀 Memproses metode: DFS
+2025-06-14 11:55:37,321 - INFO - ================================================================================
+2025-06-14 11:55:37,321 - INFO - 📥 Memuat label dari 5_split_data/5_dfs_train.json...
+2025-06-14 11:55:38,742 - INFO - ✅ Total label: 12936
+2025-06-14 11:55:38,849 - INFO - 📥 Memuat vektor dari 6_vectorized_journal_data/6_dfs_train_vectors.npy...
+2025-06-14 11:55:38,850 - INFO - ✅ Shape vektor: (12936, 100)
+2025-06-14 11:55:38,851 - INFO - 📊 **Distribusi Data - Sebelum Oversampling**
+2025-06-14 11:55:38,851 - INFO -    - Jurnal Predator      : 1080
+2025-06-14 11:55:38,851 - INFO -    - Jurnal Non-Predator  : 11856
+2025-06-14 11:55:38,851 - INFO - ⚙️ **Proses Oversampling Menggunakan SMOTEENN...**
+2025-06-14 11:55:39,633 - INFO - ✅ Oversampling selesai.
+2025-06-14 11:55:39,634 - INFO - 📊 **Distribusi Data - Setelah Oversampling**
+2025-06-14 11:55:39,634 - INFO -    - Jurnal Predator      : 11806
+2025-06-14 11:55:39,634 - INFO -    - Jurnal Non-Predator  : 9976
+2025-06-14 11:55:39,641 - INFO - 💾 **Hasil Oversampling Disimpan:**
+2025-06-14 11:55:39,641 - INFO -    → Vektor   : 7_oversampling/7_dfs_train_vectors_oversampled.npy
+2025-06-14 11:55:39,641 - INFO -    → Label    : 7_oversampling/7_dfs_train_labels_oversampled.npy
+2025-06-14 11:55:39,641 - INFO - ================================================================================
+2025-06-14 11:55:39,641 - INFO - 🎯 **Proses Oversampling Selesai**
+2025-06-14 11:55:39,641 - INFO - ================================================================================

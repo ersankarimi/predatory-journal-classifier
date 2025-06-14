@@ -1,0 +1,1580 @@
+2025-06-14 00:48:40 - INFO - 
+==================================================
+2025-06-14 00:48:40 - INFO - Memulai proses filtering data...
+2025-06-14 00:48:40 - INFO - ==================================================
+
+2025-06-14 00:48:40 - INFO - Membaca dataset: 1_combined_journal_data/1_combined_journal_data.csv...
+2025-06-14 00:48:40 - INFO - Total data awal: 23479
+2025-06-14 00:48:40 - INFO -    - Jurnal predator: 2210
+2025-06-14 00:48:40 - INFO -    - Jurnal non-predator: 21269
+2025-06-14 00:48:40 - INFO - Melakukan normalisasi URL...
+2025-06-14 00:48:40 - INFO - Total data tanpa URL yang dihapus: 0
+2025-06-14 00:48:40 - INFO - Mendeteksi dan membuang semua duplikasi berdasarkan journal_url...
+2025-06-14 00:48:40 - INFO - 
+==================================================
+2025-06-14 00:48:40 - INFO - Detail Jurnal Duplikat berdasarkan journal_url:
+2025-06-14 00:48:40 - INFO - ==================================================
+
+2025-06-14 00:48:40 - INFO - URL: http://ajms.alameenmedical.org
+2025-06-14 00:48:40 - INFO -    - Judul: Al Ameen Journal of Medical Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Al Ameen Journal of Medical Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://cjb-rcb.ca
+2025-06-14 00:48:40 - INFO -    - Judul: BioéthiqueOnline | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Canadian Journal of Bioethics | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://discover-journal.ru
+2025-06-14 00:48:40 - INFO -    - Judul: В мире научных открытий | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Siberian Journal of Life Sciences and Agriculture | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://epress.lib.uts.edu.au/journals/index.php/ajceb
+2025-06-14 00:48:40 - INFO -    - Judul: Australasian Journal of Construction Economics and Building | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Construction Economics and Building | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://gjestenv.com
+2025-06-14 00:48:40 - INFO -    - Judul: G-Journal of Education, Social Science and Humanities | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: G-Journal of Environmental Science and Technology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://gymnica.upol.cz
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Universitatis Palackianae Olomucensis. Gymnica | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Gymnica | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://ijcrt.org
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Creative Research Thoughts | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Creative Research Thoughts | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://ijpub.org
+2025-06-14 00:48:40 - INFO -    - Judul: IJPUB – International Peer Reviewed, Open Access Journal | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: IJPUB | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://jadranski-zavod.hazu.hr/en/publications/comparative-maritime-law
+2025-06-14 00:48:40 - INFO -    - Judul: Uporedno pomorsko pravo | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Poredbeno Pomorsko Pravo | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://jal.iaut.ac.ir
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Applied Linguistics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of English Language Pedagogy and Practice | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journal.mmi.kpi.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Vìsnik Nacìonalʹnogo Tehnìčnogo Unìversitetu Ukraïni Kiïvsʹkij Polìtehničnij Institut. Serìâ Mašinobuduvannâ | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Mechanics and Advanced Technologies | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journal.ui.ac.id/science
+2025-06-14 00:48:40 - INFO -    - Judul: Makara Seri Sains | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Makara Journal of Science | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journals.itb.ac.id/index.php/jictra/index
+2025-06-14 00:48:40 - INFO -    - Judul: ITB Journal of Information and Communication Technology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of ICT Research and Applications | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journals.rudn.ru/linguistics
+2025-06-14 00:48:40 - INFO -    - Judul: Russian Journal of Linguistics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Russian journal of linguistics: Vestnik RUDN | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journals.sagepub.com/home/chp
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Evidence-Based Integrative Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Evidence-Based Complementary & Alternative Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://journals.sagepub.com/home/oed
+2025-06-14 00:48:40 - INFO -    - Judul: Therapeutic Advances in Ophthalmology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ophthalmology and Eye Diseases | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://phil.duan.edu.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Alfred Nobel University Journal of Philology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Vìsnik Dnìpropetrovsʹkogo Unìversitetu Ekonomìki ta Prava Imenì Alʹfreda Nobelâ: Serìâ Fìlologìčnì Nauki | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://revistas.udistrital.edu.co/ojs/index.php/gdla/index
+2025-06-14 00:48:40 - INFO -    - Judul: Gondola | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Góndola, Enseñanza y Aprendizaje de las Ciencias | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://scientificbulletin.upm.ro
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Marisiensis: Seria Technologica | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Scientific Bulletin of the ''Petru Maior" University of Tîrgu Mureș | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://scinews.kpi.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Наукові вісті Національного технічного університету України "Київський політехнічний інститут" | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: KPI Science News | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://terioshkola.org.ua/en/journal.htm
+2025-06-14 00:48:40 - INFO -    - Judul: Праці Теріологічної школи | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Theriologia Ukrainica | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://ven.ztu.edu.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Vìsnik Žitomirsʹkogo Deržavnogo Tehnologìčnogo Unìversitetu: Ekonomìčnì Nauki | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Вісник Житомирського державного технологічного університету: Серія: економіка, управління та адміністрування | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.artandresearch.info
+2025-06-14 00:48:40 - INFO -    - Judul: Nordic Journal of Art and Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: InFormation: Nordic Journal of Art and Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.biomed.bas.bg/bioautomation
+2025-06-14 00:48:40 - INFO -    - Judul: Bioautomation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal Bioautomation | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.collabra.org
+2025-06-14 00:48:40 - INFO -    - Judul: Collabra: Psychology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Collabra | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.esterdjipress.org/index.php/ajaar
+2025-06-14 00:48:40 - INFO -    - Judul: American Journal of Advanced Agricultural Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: American Journal of Advanced Scientific Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.herbmedpharmacol.com
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of HerbMed Pharmacology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of HerbMed Pharmacology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.iijsr.org
+2025-06-14 00:48:40 - INFO -    - Judul: International Interdisciplinary Journal of Scientific Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Interdisciplinary Scientific Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ijaamm.com
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Advances in Applied Mathematics and Mechanics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Advances in Applied Mathematics and Mechanics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ijassh.com/index.php
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal Advances in Social Science and Humanities | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Advances in Social Science and Humanities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ijgii.org
+2025-06-14 00:48:40 - INFO -    - Judul: Gastrointestinal Intervention | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Gastrointestinal Intervention | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ijlpr.com
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Life science and Pharma Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Lifescience and Pharma Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ijrm.ir
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Reproductive BioMedicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Iranian Journal of Reproductive Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.jees.kr
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of the Korean Institute of Electromagnetic Engineering and Science | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Electromagnetic Engineering and Science | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.journal-imab-bg.org
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of IMAB | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of IMAB | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.jrpbs.com
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Research in Psychiatry and Behavioural Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Research in Psychiatry and Behavioural Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.jsrpublishing.com
+2025-06-14 00:48:40 - INFO -    - Judul: Junior Scientific Researcher | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Junior Scientific Researcher | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.jssshonline.com
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Studies in Social Sciences and Humanities | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Studies in Social Sciences and Humanities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.nsu.ru/ef/vestnik_ngu_ef/about_journal
+2025-06-14 00:48:40 - INFO -    - Judul: Mir Èkonomiki i Upravleniâ | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Vestnik Novosibirskogo Gosudarstvennogo Universiteta. Seriâ: Socialʹno-Èkonomičeskie Nauki | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ocl-journal.org
+2025-06-14 00:48:40 - INFO -    - Judul: Oléagineux, Corps gras, Lipides | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Oilseeds and fats, crops and lipids | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ojs.unito.it/index.php/col/index
+2025-06-14 00:48:40 - INFO -    - Judul: Ciceroniana On Line | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ciceroniana | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.ontariointernational.org/publications.html
+2025-06-14 00:48:40 - INFO -    - Judul: OIDA International Journal of Sustainable Development | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: OIDA International Journal of Sustainable Development | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.phrp.com.au
+2025-06-14 00:48:40 - INFO -    - Judul: NSW Public Health Bulletin | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Public Health Research & Practice | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.phytojournal.com
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Pharmacognosy and Phytochemistry | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Pharmacognosy: Journal of Pharmacognosy and Phytochemistry | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.sanp.ch
+2025-06-14 00:48:40 - INFO -    - Judul: Swiss Archives of Neurology and Psychiatry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Swiss Archives of Neurology, Psychiatry and Psychotherapy | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.territorioitalia.agenziaentrate.it
+2025-06-14 00:48:40 - INFO -    - Judul: Territorio Italia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Territorio Italia | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.tropicalplantresearch.com
+2025-06-14 00:48:40 - INFO -    - Judul: Tropical Plant Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Tropical Plant Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: http://www.utrechtjournal.org
+2025-06-14 00:48:40 - INFO -    - Judul: Utrecht Journal of International and European Law | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Merkourios | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://actavet.org/en
+2025-06-14 00:48:40 - INFO -    - Judul: İstanbul Üniversitesi Veteriner Fakültesi Dergisi | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Veterinaria Eurasia | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://biotechnologyforbiofuels.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Biotechnology for Biofuels and Bioproducts | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biotechnology for Biofuels | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://bmcchem.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Chemistry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Chemistry Central Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://bmccomplementmedtherapies.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Complementary Medicine and Therapies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Complementary and Alternative Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://bmcgenomdata.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Genomic Data | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Genetics | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://bmcmolcellbiol.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Molecular and Cell Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Cell Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://bmcprimcare.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Primary Care | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BMC Family Practice | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://cgejournal.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Canine Genetics and Epidemiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Canine Medicine and Genetics | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://clavesjuridicas.com
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Judicial | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Claves Jurídicas | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://cvir.st-andrews.ac.uk
+2025-06-14 00:48:40 - INFO -    - Judul: Contemporary Voices | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Terrorism Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://ejhi.springeropen.com
+2025-06-14 00:48:40 - INFO -    - Judul: European Journal of Hybrid Imaging | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: EJNMMI Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://engstroy.spbstu.ru/en
+2025-06-14 00:48:40 - INFO -    - Judul: Magazine of Civil Engineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Инженерно-строительный журнал | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://enj.org.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Українська Інтервенційна Нейрорадіологія та Хірургія | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ендоваскулярна нейрорентгенохірургія | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://environmentalmicrobiome.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Environmental Microbiome | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Standards in Genomic Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://es.ince.md/index.php/economy_and_sociology/about
+2025-06-14 00:48:40 - INFO -    - Judul: Economy and Sociology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Economy and Sociology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://fixedpointtheoryandapplications.springeropen.com
+2025-06-14 00:48:40 - INFO -    - Judul: Fixed Point Theory and Algorithms for Sciences and Engineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Fixed Point Theory and Applications | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://fjsr.journal.fi
+2025-06-14 00:48:40 - INFO -    - Judul: Research on Finnish Society | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Finnish Journal of Social Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://fluidsbarrierscns.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Fluids and Barriers of the CNS | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Cerebrospinal Fluid Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://foodsafetyandrisk.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Food Safety and Risk | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Food Contamination | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://hfe.irost.ir
+2025-06-14 00:48:40 - INFO -    - Judul: Iranian Journal of Hydrogen and Fuel Cell | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hydrogen, Fuel Cell & Energy Storage | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://informatics.bmj.com
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Innovation in Health Informatics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Informatics in Primary Care | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BMJ Health & Care Informatics | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://iupress.istanbul.edu.tr/en/journal/ase/home
+2025-06-14 00:48:40 - INFO -    - Judul: Turkish Journal of Aquatic Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Aquatic Sciences and Engineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://iwaponline.com/jwrd
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Water Reuse and Desalination | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Water Reuse | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://jksronline.org
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of the Korean Society of Radiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: 대한영상의학회지 | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://jlse.springeropen.com
+2025-06-14 00:48:40 - INFO -    - Judul: Collagen and Leather | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Leather Science and Engineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journal.blasemarang.id/index.php/analisa/index
+2025-06-14 00:48:40 - INFO -    - Judul: Analisa: Jurnal Pengkajian Masalah Sosial Keagamaan | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Analisa | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.aps.org/prab
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Review Special Topics. Accelerators and Beams | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Review Accelerators and Beams | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.aps.org/prper
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Review Special Topics. Physics Education Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Review Physics Education Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.iucr.org/e
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Crystallographica Section E: Crystallographic Communications | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Acta Crystallographica Section E | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.librarypublishing.arizona.edu/itlt
+2025-06-14 00:48:40 - INFO -    - Judul: Issues and Trends in Learning Technologies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Issues and Trends in Educational Technology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/acm
+2025-06-14 00:48:40 - INFO -    - Judul: Composites and Advanced Materials | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Advanced Composites Letters | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/bdx
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical Medicine Insights: Blood Disorders | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Plasmatology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/cmg
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical Medicine Insights: Gastroenterology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Therapeutic Advances in Gastrointestinal Endoscopy | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/exn
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Experimental Neuroscience | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Neuroscience Insights | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/pat
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical Medicine Insights: Pathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical Pathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/pcr
+2025-06-14 00:48:40 - INFO -    - Judul: Palliative Care and Social Practice | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Palliative Care | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://journals.sagepub.com/home/reh
+2025-06-14 00:48:40 - INFO -    - Judul: Therapeutic Advances in Reproductive Health | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical Medicine Insights: Reproductive Health | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://maiask.ru
+2025-06-14 00:48:40 - INFO -    - Judul: Материалы по археологии и истории античного и средневекового Причерноморья | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Материалы по археологии и истории античного и средневекового Крыма | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://newvoices.org.au
+2025-06-14 00:48:40 - INFO -    - Judul: New Voices | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: New Voices in Japanese Studies | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://ojs.library.queensu.ca/index.php/encounters/index
+2025-06-14 00:48:40 - INFO -    - Judul: Encounters on Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Encounters in Theory and History of Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://ojs.mruni.eu/ojs/social-inquiry-into-well-being
+2025-06-14 00:48:40 - INFO -    - Judul: Social Inquiry into Well-Being | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Socialinis Darbas | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/1607
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Immunology Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical and Developmental Immunology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/1720
+2025-06-14 00:48:40 - INFO -    - Judul: Canadian Journal of Gastroenterology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Canadian Journal of Gastroenterology and Hepatology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/2641
+2025-06-14 00:48:40 - INFO -    - Judul: Analytical Cellular Pathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Analytical Cellular Pathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Cellular Oncology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/2962
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Chemistry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: E-Journal of Chemistry | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/3152
+2025-06-14 00:48:40 - INFO -    - Judul: Advances in Pharmacological and Pharmaceutical Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Advances in Pharmacological Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/6314
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Differential Equations | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Differential Equations and Nonlinear Mechanics | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/9303
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Function Spaces and Applications | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Function Spaces | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/9514
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Marine Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Marine Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/9575
+2025-06-14 00:48:40 - INFO -    - Judul: Canadian Journal of Infectious Diseases | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Canadian Journal of Infectious Diseases and Medical Microbiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://onlinelibrary.wiley.com/journal/9613
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Computer Networks and Communications | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Computer Systems, Networks, and Communications | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://openresearchafrica.org
+2025-06-14 00:48:40 - INFO -    - Judul: Open Research Africa | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: AAS Open Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://orbit.openlibhums.org
+2025-06-14 00:48:40 - INFO -    - Judul: Orbit | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Orbit: Writing Around Pynchon | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://ph02.tci-thaijo.org/index.php/stej/index
+2025-06-14 00:48:40 - INFO -    - Judul: Food Agricultural Sciences and Technology (FAST) | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Research & Knowledge | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://press.wz.uw.edu.pl/ems
+2025-06-14 00:48:40 - INFO -    - Judul: Problemy Zarządzania | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: European Management Studies | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://publicera.kb.se/sjpa
+2025-06-14 00:48:40 - INFO -    - Judul: Scandinavian Journal of Public Administration | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Offentlig Förvaltning: Scandinavian Journal of Public Administration | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sciendo.com/journal/aopf
+2025-06-14 00:48:40 - INFO -    - Judul: Fisheries & Aquatic Life | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Archives of Polish Fisheries | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sciendo.com/journal/bjes
+2025-06-14 00:48:40 - INFO -    - Judul: Baltic Journal of European studies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: TalTech Journal of European Studies | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sciendo.com/journal/nimmir
+2025-06-14 00:48:40 - INFO -    - Judul: GfK Marketing Intelligence Review | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: NIM Marketing Intelligence Review | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sciendo.com/journal/srj
+2025-06-14 00:48:40 - INFO -    - Judul: Slovak Raptor Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Raptor Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sft.cnbop.pl/en
+2025-06-14 00:48:40 - INFO -    - Judul: Safety & Fire Technology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Bezpieczeństwo i Technika Pożarnicza | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://ssoss.ui.ac.ir/?lang=en
+2025-06-14 00:48:40 - INFO -    - Judul: پژوهش‌های راهبردی مسائل اجتماعی ایران | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Strategic Research on Social Problems | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://sustainenergyres.springeropen.com
+2025-06-14 00:48:40 - INFO -    - Judul: Sustainable Energy Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Renewables: Wind, Water, and Solar | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://tesolal.columbia.edu
+2025-06-14 00:48:40 - INFO -    - Judul: Working Papers in Applied Linguistics and TESOL | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Studies in Applied Linguistics & TESOL | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://theultrasoundjournal.springeropen.com
+2025-06-14 00:48:40 - INFO -    - Judul: The Ultrasound Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Critical Ultrasound Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://trialsjournal.biomedcentral.com
+2025-06-14 00:48:40 - INFO -    - Judul: Trials | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Current Controlled Trials in Cardiovascular Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://vestnmath.dnu.dp.ua
+2025-06-14 00:48:40 - INFO -    - Judul: Researches in Mathematics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Vìsnik Dnìpropetrovsʹkogo Unìversitetu: Serìâ Matematika | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://wbcrj.scholasticahq.com
+2025-06-14 00:48:40 - INFO -    - Judul: Wine Business Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Wine Business Case Research Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://websites.godaddy.com/pt-br/editor/4c349823-c5b5-461c-8f36-d894bc42b33d/6ee87585-22f2-44b4-9e53-760b2e2771fd/edit/6be8ebae-cc2f-43ae-8d92-8f66a2442a89/mutator/card/0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Multidisciplinary and Scientific Emerging Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Nanofluids and Nanoparticles | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Signal Processing Systems | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Fundamental and Applied Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Process Management New Technologies International | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Spectroscopy and Molecular Physics | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: Scientific Transactions in Environment and Technovation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://websites.godaddy.com/pt-br/editor/4c349823-c5b5-461c-8f36-d894bc42b33d/b13bb63c-de7d-480d-b31f-0c3e9cbcf27c/edit/b3bdb539-7226-4f5f-86ae-09002b1ac094/mutator/card/0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Advances in Interdisciplinary Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Current Multidisciplinary Studies | is_predatory: 1
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Energy and Water Resources | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://worldnutritionjournal.org/index.php/wn
+2025-06-14 00:48:40 - INFO -    - Judul: World Nutrition | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: World Nutrition | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.advancedspinej.org
+2025-06-14 00:48:40 - INFO -    - Judul: Advanced Spine Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Egyptian Spine Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.dovepress.com/international-journal-of-nanomedicine-journal
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Nanomedicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Nanomedicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.eurjhm.com/index.php/eurjhm/index
+2025-06-14 00:48:40 - INFO -    - Judul: Motricidad | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: European Journal of Human Movement | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.frontiersin.org/journals/cardiovascular-medicine
+2025-06-14 00:48:40 - INFO -    - Judul: Frontiers in Cardiovascular Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Frontiers in Cardiovascular Medicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.genealogy-critique.net
+2025-06-14 00:48:40 - INFO -    - Judul: Genealogy+Critique | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Le foucaldien | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.idunn.no/journal/njsp
+2025-06-14 00:48:40 - INFO -    - Judul: Nordic Journal of Studies in Policing | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nordisk Politiforskning | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.ijwil.org
+2025-06-14 00:48:40 - INFO -    - Judul: Asia-Pacific Journal of Cooperative Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Work-Integrated Learning | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.jpcmed.com
+2025-06-14 00:48:40 - INFO -    - Judul: Novelty in Clinical Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Preventive and Complementary Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/acoustics
+2025-06-14 00:48:40 - INFO -    - Judul: Acoustics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Acoustics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/adolescents
+2025-06-14 00:48:40 - INFO -    - Judul: Adolescents | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Adolescents | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/agriengineering
+2025-06-14 00:48:40 - INFO -    - Judul: AgriEngineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: AgriEngineering | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/agrochemicals
+2025-06-14 00:48:40 - INFO -    - Judul: Agrochemicals | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Agrochemicals | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ai
+2025-06-14 00:48:40 - INFO -    - Judul: AI | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: AI | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/algorithms
+2025-06-14 00:48:40 - INFO -    - Judul: Algorithms | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Algorithms | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/allergies
+2025-06-14 00:48:40 - INFO -    - Judul: Allergies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Allergies | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/alloys
+2025-06-14 00:48:40 - INFO -    - Judul: Alloys | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Alloys | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/analytica
+2025-06-14 00:48:40 - INFO -    - Judul: Analytica | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Analytica | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/analytics
+2025-06-14 00:48:40 - INFO -    - Judul: Analytics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Analytics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/anatomia
+2025-06-14 00:48:40 - INFO -    - Judul: Anatomia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Anatomia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/applbiosci
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Biosciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Biosciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/appliedchem
+2025-06-14 00:48:40 - INFO -    - Judul: AppliedChem | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: AppliedChem | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/appliedmath
+2025-06-14 00:48:40 - INFO -    - Judul: AppliedMath | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: AppliedMath | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/applmech
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Mechanics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Mechanics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/applmicrobiol
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Microbiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Microbiology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/applnano
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Nano | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Applied Nano | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/aquacj
+2025-06-14 00:48:40 - INFO -    - Judul: Aquaculture Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Aquaculture Journal | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/architecture
+2025-06-14 00:48:40 - INFO -    - Judul: Architecture | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Architecture | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/arm
+2025-06-14 00:48:40 - INFO -    - Judul: Advances in Respiratory Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Advances in Respiratory Medicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/arthropoda
+2025-06-14 00:48:40 - INFO -    - Judul: Arthropoda | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Arthropoda | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/asi
+2025-06-14 00:48:40 - INFO -    - Judul: Applied System Innovation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Applied System Innovation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/astronomy
+2025-06-14 00:48:40 - INFO -    - Judul: Astronomy | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Astronomy | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/audiolres
+2025-06-14 00:48:40 - INFO -    - Judul: Audiology Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Audiology Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/automation
+2025-06-14 00:48:40 - INFO -    - Judul: Automation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Automation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/bacteria
+2025-06-14 00:48:40 - INFO -    - Judul: Bacteria | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Bacteria | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/beverages
+2025-06-14 00:48:40 - INFO -    - Judul: Beverages | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Beverages | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biochem
+2025-06-14 00:48:40 - INFO -    - Judul: BioChem | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BioChem | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/bioengineering
+2025-06-14 00:48:40 - INFO -    - Judul: Bioengineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Bioengineering | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biologics
+2025-06-14 00:48:40 - INFO -    - Judul: Biologics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biologics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biology
+2025-06-14 00:48:40 - INFO -    - Judul: Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomass
+2025-06-14 00:48:40 - INFO -    - Judul: Biomass | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biomass | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomechanics
+2025-06-14 00:48:40 - INFO -    - Judul: Biomechanics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biomechanics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomed
+2025-06-14 00:48:40 - INFO -    - Judul: BioMed | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BioMed | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomedinformatics
+2025-06-14 00:48:40 - INFO -    - Judul: BioMedInformatics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BioMedInformatics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomimetics
+2025-06-14 00:48:40 - INFO -    - Judul: Biomimetics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biomimetics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biomolecules
+2025-06-14 00:48:40 - INFO -    - Judul: Biomolecules | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biomolecules | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biophysica
+2025-06-14 00:48:40 - INFO -    - Judul: Biophysica | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biophysica | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/biotech
+2025-06-14 00:48:40 - INFO -    - Judul: BioTech | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: BioTech | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/birds
+2025-06-14 00:48:40 - INFO -    - Judul: Birds | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Birds | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/blsf
+2025-06-14 00:48:40 - INFO -    - Judul: Biology and Life Sciences Forum | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Biology and Life Sciences Forum * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/brainsci
+2025-06-14 00:48:40 - INFO -    - Judul: Brain Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Brain Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/buildings
+2025-06-14 00:48:40 - INFO -    - Judul: Buildings | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Buildings | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/businesses
+2025-06-14 00:48:40 - INFO -    - Judul: Businesses | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Businesses | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/cardiogenetics
+2025-06-14 00:48:40 - INFO -    - Judul: Cardiogenetics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Cardiogenetics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/cells
+2025-06-14 00:48:40 - INFO -    - Judul: Cells | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Cells | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ceramics
+2025-06-14 00:48:40 - INFO -    - Judul: Ceramics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ceramics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/chemistry
+2025-06-14 00:48:40 - INFO -    - Judul: Chemistry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Chemistry | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/chemproc
+2025-06-14 00:48:40 - INFO -    - Judul: Chemistry Proceedings | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Chemistry Proceedings * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/chips
+2025-06-14 00:48:40 - INFO -    - Judul: Chips | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Chips | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/cimb
+2025-06-14 00:48:40 - INFO -    - Judul: Current Issues in Molecular Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Current Issues in Molecular Biology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/civileng
+2025-06-14 00:48:40 - INFO -    - Judul: CivilEng | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: CivilEng | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/cleantechnol
+2025-06-14 00:48:40 - INFO -    - Judul: Clean Technologies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clean Technologies | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/clinpract
+2025-06-14 00:48:40 - INFO -    - Judul: Clinics and Practice | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clinics and Practice | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/clockssleep
+2025-06-14 00:48:40 - INFO -    - Judul: Clocks & Sleep | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clocks & Sleep | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/cmd
+2025-06-14 00:48:40 - INFO -    - Judul: Corrosion and Materials Degradation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Corrosion and Materials Degradation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/coasts
+2025-06-14 00:48:40 - INFO -    - Judul: Coasts | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Coasts | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/colorants
+2025-06-14 00:48:40 - INFO -    - Judul: Colorants | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Colorants | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/commodities
+2025-06-14 00:48:40 - INFO -    - Judul: Commodities | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Commodities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/compounds
+2025-06-14 00:48:40 - INFO -    - Judul: Compounds | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Compounds | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/conservation
+2025-06-14 00:48:40 - INFO -    - Judul: Conservation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Conservation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/constrmater
+2025-06-14 00:48:40 - INFO -    - Judul: Construction Materials | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Construction Materials | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/covid
+2025-06-14 00:48:40 - INFO -    - Judul: COVID | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: COVID | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/crops
+2025-06-14 00:48:40 - INFO -    - Judul: Crops | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Crops | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/csmf
+2025-06-14 00:48:40 - INFO -    - Judul: Computer Sciences & Mathematics Forum | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Computer Sciences & Mathematics Forum * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ctn
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical and Translational Neuroscience | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Clinical and Translational Neuroscience | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/curroncol
+2025-06-14 00:48:40 - INFO -    - Judul: Current Oncology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Current Oncology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dairy
+2025-06-14 00:48:40 - INFO -    - Judul: Dairy | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Dairy | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ddc
+2025-06-14 00:48:40 - INFO -    - Judul: Drugs and Drug Candidates | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Drugs and Drug Candidates | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dermato
+2025-06-14 00:48:40 - INFO -    - Judul: Dermato | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Dermato | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dermatopathology
+2025-06-14 00:48:40 - INFO -    - Judul: Dermatopathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Dermatopathology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/diabetology
+2025-06-14 00:48:40 - INFO -    - Judul: Diabetology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Diabetology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dietetics
+2025-06-14 00:48:40 - INFO -    - Judul: Dietetics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Dietetics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/digital
+2025-06-14 00:48:40 - INFO -    - Judul: Digital | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Digital | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/disabilities
+2025-06-14 00:48:40 - INFO -    - Judul: Disabilities | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Disabilities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dna
+2025-06-14 00:48:40 - INFO -    - Judul: DNA | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: DNA | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/dynamics
+2025-06-14 00:48:40 - INFO -    - Judul: Dynamics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Dynamics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/earth
+2025-06-14 00:48:40 - INFO -    - Judul: Earth | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Earth | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ebj
+2025-06-14 00:48:40 - INFO -    - Judul: European Burn Journal | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: European Burn Journal | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ecologies
+2025-06-14 00:48:40 - INFO -    - Judul: Ecologies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ecologies | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ejihpe
+2025-06-14 00:48:40 - INFO -    - Judul: European Journal of Investigation in Health, Psychology and Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: European Journal of Investigation in Health, Psychology and Education | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/electricity
+2025-06-14 00:48:40 - INFO -    - Judul: Electricity | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Electricity | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/electrochem
+2025-06-14 00:48:40 - INFO -    - Judul: Electrochem | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Electrochem | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/electronicmat
+2025-06-14 00:48:40 - INFO -    - Judul: Electronic Materials | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Electronic Materials | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/encyclopedia
+2025-06-14 00:48:40 - INFO -    - Judul: Encyclopedia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Encyclopedia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/endocrines
+2025-06-14 00:48:40 - INFO -    - Judul: Endocrines | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Endocrines | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/eng
+2025-06-14 00:48:40 - INFO -    - Judul: Eng | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Eng | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/engproc
+2025-06-14 00:48:40 - INFO -    - Judul: Engineering Proceedings | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Engineering Proceedings * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/environsciproc
+2025-06-14 00:48:40 - INFO -    - Judul: Environmental Sciences Proceedings | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Environmental Sciences Proceedings * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/epidemiologia
+2025-06-14 00:48:40 - INFO -    - Judul: Epidemiologia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Epidemiologia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/epigenomes
+2025-06-14 00:48:40 - INFO -    - Judul: Epigenomes | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Epigenomes | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/fintech
+2025-06-14 00:48:40 - INFO -    - Judul: FinTech | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: FinTech | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/fire
+2025-06-14 00:48:40 - INFO -    - Judul: Fire | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Fire | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/forensicsci
+2025-06-14 00:48:40 - INFO -    - Judul: Forensic Sciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Forensic Sciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/foundations
+2025-06-14 00:48:40 - INFO -    - Judul: Foundations | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Foundations | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/fuels
+2025-06-14 00:48:40 - INFO -    - Judul: Fuels | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Fuels | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/futurepharmacol
+2025-06-14 00:48:40 - INFO -    - Judul: Future Pharmacology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Future Pharmacology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/futuretransp
+2025-06-14 00:48:40 - INFO -    - Judul: Future Transportation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Future Transportation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/gases
+2025-06-14 00:48:40 - INFO -    - Judul: Gases | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Gases | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/gastroent
+2025-06-14 00:48:40 - INFO -    - Judul: Gastroenterology Insights | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Gastroenterology Insights | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/gastrointestdisord
+2025-06-14 00:48:40 - INFO -    - Judul: Gastrointestinal Disorders | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Gastrointestinal Disorders | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geographies
+2025-06-14 00:48:40 - INFO -    - Judul: Geographies | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Geographies | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geohazards
+2025-06-14 00:48:40 - INFO -    - Judul: GeoHazards | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: GeoHazards | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geomatics
+2025-06-14 00:48:40 - INFO -    - Judul: Geomatics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Geomatics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geosciences
+2025-06-14 00:48:40 - INFO -    - Judul: Geosciences | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Geosciences | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geotechnics
+2025-06-14 00:48:40 - INFO -    - Judul: Geotechnics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Geotechnics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/geriatrics
+2025-06-14 00:48:40 - INFO -    - Judul: Geriatrics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Geriatrics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/grasses
+2025-06-14 00:48:40 - INFO -    - Judul: Grasses | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Grasses | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hearts
+2025-06-14 00:48:40 - INFO -    - Judul: Hearts | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hearts | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hemato
+2025-06-14 00:48:40 - INFO -    - Judul: Hemato | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hemato | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hematolrep
+2025-06-14 00:48:40 - INFO -    - Judul: Hematology Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hematology Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/higheredu
+2025-06-14 00:48:40 - INFO -    - Judul: Trends in Higher Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Trends in Higher Education | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/histories
+2025-06-14 00:48:40 - INFO -    - Judul: Histories | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Histories | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/humans
+2025-06-14 00:48:40 - INFO -    - Judul: Humans | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Humans | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hydrobiology
+2025-06-14 00:48:40 - INFO -    - Judul: Hydrobiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hydrobiology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hydrogen
+2025-06-14 00:48:40 - INFO -    - Judul: Hydrogen | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hydrogen | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/hygiene
+2025-06-14 00:48:40 - INFO -    - Judul: Hygiene | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Hygiene | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/idr
+2025-06-14 00:48:40 - INFO -    - Judul: Infectious Disease Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Infectious Disease Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ijns
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Neonatal Screening | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Neonatal Screening | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ijpb
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Plant Biology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Plant Biology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ijtm
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Translational Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Journal of Translational Medicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ime
+2025-06-14 00:48:40 - INFO -    - Judul: International Medical Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: International Medical Education | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/immuno
+2025-06-14 00:48:40 - INFO -    - Judul: Immuno | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Immuno | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/iot
+2025-06-14 00:48:40 - INFO -    - Judul: IoT | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: IoT | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/j
+2025-06-14 00:48:40 - INFO -    - Judul: J | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: J | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jal
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Ageing and Longevity | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Ageing and Longevity | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jcp
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Cybersecurity and Privacy | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Cybersecurity and Privacy | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jintelligence
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Intelligence | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Intelligence | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jmp
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Molecular Pathology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Molecular Pathology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jne
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Nuclear Engineering | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Nuclear Engineering | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jnt
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Nanotheranostics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Nanotheranostics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jor
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Respiration | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Respiration | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/journalmedia
+2025-06-14 00:48:40 - INFO -    - Judul: Journalism and Media | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journalism and Media | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jox
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Xenobiotics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Xenobiotics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jsan
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Sensor and Actuator Networks | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Sensor and Actuator Networks | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jtaer
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Theoretical and Applied Electronic Commerce Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Theoretical and Applied Electronic Commerce Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jvd
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Vascular Diseases | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Vascular Diseases | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/jzbg
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Zoological and Botanical Gardens | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Zoological and Botanical Gardens | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/kidneydial
+2025-06-14 00:48:40 - INFO -    - Judul: Kidney and Dialysis | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Kidney and Dialysis | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/knowledge
+2025-06-14 00:48:40 - INFO -    - Judul: Knowledge | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Knowledge | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/liquids
+2025-06-14 00:48:40 - INFO -    - Judul: Liquids | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Liquids | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/literature
+2025-06-14 00:48:40 - INFO -    - Judul: Literature | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Literature | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/livers
+2025-06-14 00:48:40 - INFO -    - Judul: Livers | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Livers | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/logics
+2025-06-14 00:48:40 - INFO -    - Judul: Logics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Logics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/macromol
+2025-06-14 00:48:40 - INFO -    - Judul: Macromol | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Macromol | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/magnetism
+2025-06-14 00:48:40 - INFO -    - Judul: Magnetism | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Magnetism | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/make
+2025-06-14 00:48:40 - INFO -    - Judul: Machine Learning and Knowledge Extraction | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Machine Learning and Knowledge Extraction | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/materproc
+2025-06-14 00:48:40 - INFO -    - Judul: Materials Proceedings | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Materials Proceedings * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/medicina
+2025-06-14 00:48:40 - INFO -    - Judul: Medicina | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Medicina | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/membranes
+2025-06-14 00:48:40 - INFO -    - Judul: Membranes | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Membranes | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/merits
+2025-06-14 00:48:40 - INFO -    - Judul: Merits | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Merits | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/meteorology
+2025-06-14 00:48:40 - INFO -    - Judul: Meteorology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Meteorology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/methane
+2025-06-14 00:48:40 - INFO -    - Judul: Methane | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Methane | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/metrology
+2025-06-14 00:48:40 - INFO -    - Judul: Metrology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Metrology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/micro
+2025-06-14 00:48:40 - INFO -    - Judul: Micro | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Micro | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/microbiolres
+2025-06-14 00:48:40 - INFO -    - Judul: Microbiology Research | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Microbiology Research | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/micromachines
+2025-06-14 00:48:40 - INFO -    - Judul: Micromachines | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Micromachines | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/microorganisms
+2025-06-14 00:48:40 - INFO -    - Judul: Microorganisms | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Microorganisms | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/microplastics
+2025-06-14 00:48:40 - INFO -    - Judul: Microplastics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Microplastics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/mining
+2025-06-14 00:48:40 - INFO -    - Judul: Mining | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Mining | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/modelling
+2025-06-14 00:48:40 - INFO -    - Judul: Modelling | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Modelling | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/molbank
+2025-06-14 00:48:40 - INFO -    - Judul: Molbank | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Molbank | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/mps
+2025-06-14 00:48:40 - INFO -    - Judul: Methods and Protocols | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Methods and Protocols | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/msf
+2025-06-14 00:48:40 - INFO -    - Judul: Medical Sciences Forum | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Medical Sciences Forum * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/muscles
+2025-06-14 00:48:40 - INFO -    - Judul: Muscles | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Muscles | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nanoenergyadv
+2025-06-14 00:48:40 - INFO -    - Judul: Nanoenergy Advances | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nanoenergy Advances | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nanomanufacturing
+2025-06-14 00:48:40 - INFO -    - Judul: Nanomanufacturing | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nanomanufacturing | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nanomaterials
+2025-06-14 00:48:40 - INFO -    - Judul: Nanomaterials | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nanomaterials | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ncrna
+2025-06-14 00:48:40 - INFO -    - Judul: Non-Coding RNA | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Non-Coding RNA | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/network
+2025-06-14 00:48:40 - INFO -    - Judul: Network | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Network | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/neuroglia
+2025-06-14 00:48:40 - INFO -    - Judul: Neuroglia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Neuroglia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/neurolint
+2025-06-14 00:48:40 - INFO -    - Judul: Neurology International | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Neurology International | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/neurosci
+2025-06-14 00:48:40 - INFO -    - Judul: NeuroSci | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: NeuroSci | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nitrogen
+2025-06-14 00:48:40 - INFO -    - Judul: Nitrogen | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nitrogen | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nursrep
+2025-06-14 00:48:40 - INFO -    - Judul: Nursing Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nursing Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/nutraceuticals
+2025-06-14 00:48:40 - INFO -    - Judul: Nutraceuticals | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nutraceuticals | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/obesities
+2025-06-14 00:48:40 - INFO -    - Judul: Obesities | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Obesities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/oceans
+2025-06-14 00:48:40 - INFO -    - Judul: Oceans | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Oceans | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ohbm
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Otorhinolaryngology, Hearing and Balance Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Otorhinolaryngology, Hearing and Balance Medicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/onco
+2025-06-14 00:48:40 - INFO -    - Judul: Onco | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Onco | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/optics
+2025-06-14 00:48:40 - INFO -    - Judul: Optics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Optics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/oral
+2025-06-14 00:48:40 - INFO -    - Judul: Oral | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Oral | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/organics
+2025-06-14 00:48:40 - INFO -    - Judul: Organics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Organics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/organoids
+2025-06-14 00:48:40 - INFO -    - Judul: Organoids | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Organoids | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/osteology
+2025-06-14 00:48:40 - INFO -    - Judul: Osteology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Osteology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/oxygen
+2025-06-14 00:48:40 - INFO -    - Judul: Oxygen | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Oxygen | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/parasitologia
+2025-06-14 00:48:40 - INFO -    - Judul: Parasitologia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Parasitologia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/particles
+2025-06-14 00:48:40 - INFO -    - Judul: Particles | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Particles | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/pathophysiology
+2025-06-14 00:48:40 - INFO -    - Judul: Pathophysiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Pathophysiology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/pediatrrep
+2025-06-14 00:48:40 - INFO -    - Judul: Pediatric Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Pediatric Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/pharmacoepidemiology
+2025-06-14 00:48:40 - INFO -    - Judul: Pharmacoepidemiology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Pharmacoepidemiology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/photochem
+2025-06-14 00:48:40 - INFO -    - Judul: Photochem | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Photochem | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/phycology
+2025-06-14 00:48:40 - INFO -    - Judul: Phycology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Phycology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/physchem
+2025-06-14 00:48:40 - INFO -    - Judul: Physchem | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physchem | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/physics
+2025-06-14 00:48:40 - INFO -    - Judul: Physics | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physics | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/physiologia
+2025-06-14 00:48:40 - INFO -    - Judul: Physiologia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physiologia | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/plasma
+2025-06-14 00:48:40 - INFO -    - Judul: Plasma | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Plasma | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/pollutants
+2025-06-14 00:48:40 - INFO -    - Judul: Pollutants | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Pollutants | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/polysaccharides
+2025-06-14 00:48:40 - INFO -    - Judul: Polysaccharides | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Polysaccharides | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/poultry
+2025-06-14 00:48:40 - INFO -    - Judul: Poultry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Poultry | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/powders
+2025-06-14 00:48:40 - INFO -    - Judul: Powders | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Powders | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/prosthesis
+2025-06-14 00:48:40 - INFO -    - Judul: Prosthesis | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Prosthesis | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/psf
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Sciences Forum | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Physical Sciences Forum * | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/psych
+2025-06-14 00:48:40 - INFO -    - Judul: Psych | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Psych | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/psychiatryint
+2025-06-14 00:48:40 - INFO -    - Judul: Psychiatry International | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Psychiatry International | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/psychoactives
+2025-06-14 00:48:40 - INFO -    - Judul: Psychoactives | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Psychoactives | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/quantumrep
+2025-06-14 00:48:40 - INFO -    - Judul: Quantum Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Quantum Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/quaternary
+2025-06-14 00:48:40 - INFO -    - Judul: Quaternary | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Quaternary | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/radiation
+2025-06-14 00:48:40 - INFO -    - Judul: Radiation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Radiation | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/reactions
+2025-06-14 00:48:40 - INFO -    - Judul: Reactions | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Reactions | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/receptors
+2025-06-14 00:48:40 - INFO -    - Judul: Receptors | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Receptors | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/reports
+2025-06-14 00:48:40 - INFO -    - Judul: Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/reprodmed
+2025-06-14 00:48:40 - INFO -    - Judul: Reproductive Medicine | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Reproductive Medicine | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/rheumato
+2025-06-14 00:48:40 - INFO -    - Judul: Rheumato | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Rheumato | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/ruminants
+2025-06-14 00:48:40 - INFO -    - Judul: Ruminants | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Ruminants | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/sci
+2025-06-14 00:48:40 - INFO -    - Judul: Sci | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Sci | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/seeds
+2025-06-14 00:48:40 - INFO -    - Judul: Seeds | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Seeds | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/sexes
+2025-06-14 00:48:40 - INFO -    - Judul: Sexes | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Sexes | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/signals
+2025-06-14 00:48:40 - INFO -    - Judul: Signals | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Signals | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/smartcities
+2025-06-14 00:48:40 - INFO -    - Judul: Smart Cities | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Smart Cities | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/software
+2025-06-14 00:48:40 - INFO -    - Judul: Software | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Software | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/solar
+2025-06-14 00:48:40 - INFO -    - Judul: Solar | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Solar | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/solids
+2025-06-14 00:48:40 - INFO -    - Judul: Solids | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Solids | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/standards
+2025-06-14 00:48:40 - INFO -    - Judul: Standards | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Standards | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/stats
+2025-06-14 00:48:40 - INFO -    - Judul: Stats | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Stats | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/std
+2025-06-14 00:48:40 - INFO -    - Judul: Surgical Techniques Development | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Surgical Techniques Development | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/stresses
+2025-06-14 00:48:40 - INFO -    - Judul: Stresses | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Stresses | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/surfaces
+2025-06-14 00:48:40 - INFO -    - Judul: Surfaces | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Surfaces | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/surgeries
+2025-06-14 00:48:40 - INFO -    - Judul: Surgeries | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Surgeries | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/suschem
+2025-06-14 00:48:40 - INFO -    - Judul: Sustainable Chemistry | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Sustainable Chemistry | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/synbio
+2025-06-14 00:48:40 - INFO -    - Judul: SynBio | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: SynBio | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/taxonomy
+2025-06-14 00:48:40 - INFO -    - Judul: Taxonomy | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Taxonomy | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/telecom
+2025-06-14 00:48:40 - INFO -    - Judul: Telecom | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Telecom | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/textiles
+2025-06-14 00:48:40 - INFO -    - Judul: Textiles | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Textiles | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/thalassrep
+2025-06-14 00:48:40 - INFO -    - Judul: Thalassemia Reports | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Thalassemia Reports | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/thermo
+2025-06-14 00:48:40 - INFO -    - Judul: Thermo | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Thermo | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/tomography
+2025-06-14 00:48:40 - INFO -    - Judul: Tomography | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Tomography | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/tourismhosp
+2025-06-14 00:48:40 - INFO -    - Judul: Tourism and Hospitality | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Tourism and Hospitality | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/transplantology
+2025-06-14 00:48:40 - INFO -    - Judul: Transplantology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Transplantology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/traumacare
+2025-06-14 00:48:40 - INFO -    - Judul: Trauma Care | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Trauma Care | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/uro
+2025-06-14 00:48:40 - INFO -    - Judul: Uro | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Uro | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/vehicles
+2025-06-14 00:48:40 - INFO -    - Judul: Vehicles | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Vehicles | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/venereology
+2025-06-14 00:48:40 - INFO -    - Judul: Venereology | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Venereology | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/vibration
+2025-06-14 00:48:40 - INFO -    - Judul: Vibration | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Vibration | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/virtualworlds
+2025-06-14 00:48:40 - INFO -    - Judul: Virtual Worlds | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Virtual Worlds | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/waste
+2025-06-14 00:48:40 - INFO -    - Judul: Waste | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Waste | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/wind
+2025-06-14 00:48:40 - INFO -    - Judul: Wind | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Wind | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/women
+2025-06-14 00:48:40 - INFO -    - Judul: Women | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Women | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/world
+2025-06-14 00:48:40 - INFO -    - Judul: World | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: World | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/youth
+2025-06-14 00:48:40 - INFO -    - Judul: Youth | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Youth | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.mdpi.com/journal/zoonoticdis
+2025-06-14 00:48:40 - INFO -    - Judul: Zoonotic Diseases | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Zoonotic Diseases | is_predatory: 1
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.nature.com/npjschz
+2025-06-14 00:48:40 - INFO -    - Judul: npj Schizophrenia | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Schizophrenia | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.nature.com/palcomms
+2025-06-14 00:48:40 - INFO -    - Judul: Humanities & Social Sciences Communications | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Palgrave Communications | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.ntnu.no/ojs/index.php/ps
+2025-06-14 00:48:40 - INFO -    - Judul: Dance Articulated | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: På Spissen | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.springer.com/journal/11671
+2025-06-14 00:48:40 - INFO -    - Judul: Discover Nano | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Nanoscale Research Letters | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.springer.com/journal/40534
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Modern Transportation | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Railway Engineering Science | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.tandfonline.com/journals/tcsb
+2025-06-14 00:48:40 - INFO -    - Judul: Chemical Speciation & Bioavailability | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Environmental Pollutants & Bioavailability | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.tandfonline.com/journals/tgda
+2025-06-14 00:48:40 - INFO -    - Judul: Geodinamica Acta | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: All Earth | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - URL: https://www.tandfonline.com/journals/ujse
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Statistics and Data Science Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO -    - Judul: Journal of Statistics Education | is_predatory: 0
+2025-06-14 00:48:40 - INFO - --------------------------------------------------
+2025-06-14 00:48:40 - INFO - Total data duplikat yang dihapus (semua dibuang): 780
+2025-06-14 00:48:40 - INFO - Total data setelah filtering: 22699
+2025-06-14 00:48:40 - INFO -    - Jurnal predator: 1919
+2025-06-14 00:48:40 - INFO -    - Jurnal non-predator: 20780
+2025-06-14 00:48:40 - INFO - File data yang sudah difilter disimpan di: 2_filtered_journal_data/2_filtered_journal_data.csv
+2025-06-14 00:48:40 - INFO - File data yang terhapus disimpan di: 2_filtered_journal_data/2_filtered_journal_data_removed.csv
+2025-06-14 00:48:40 - INFO - 
+==================================================
+2025-06-14 00:48:40 - INFO - Proses filtering data selesai.
+2025-06-14 00:48:40 - INFO - ==================================================
+

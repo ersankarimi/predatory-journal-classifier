@@ -1,0 +1,46 @@
+2025-05-06 21:15:30,406 - INFO - ================================================================================
+2025-05-06 21:15:30,406 - INFO - === Memulai Proses Oversampling Data ===
+2025-05-06 21:15:30,406 - INFO - ================================================================================
+2025-05-06 21:15:30,406 - INFO - ================================================================================
+2025-05-06 21:15:30,406 - INFO - 🚀 Memproses metode: BFS
+2025-05-06 21:15:30,406 - INFO - ================================================================================
+2025-05-06 21:15:30,406 - INFO - 📥 Memuat label dari 5_split_data/5_bfs_train.json...
+2025-05-06 21:15:32,077 - INFO - ✅ Total label: 13675
+2025-05-06 21:15:32,205 - INFO - 📥 Memuat vektor dari 6_vectorized_journal_data/6_bfs_train_vectors.npy...
+2025-05-06 21:15:32,209 - INFO - ✅ Shape vektor: (13675, 100)
+2025-05-06 21:15:32,209 - INFO - 📊 **Distribusi Data - Sebelum Oversampling**
+2025-05-06 21:15:32,210 - INFO -    - Jurnal Predator      : 1072
+2025-05-06 21:15:32,210 - INFO -    - Jurnal Non-Predator  : 12603
+2025-05-06 21:15:32,210 - INFO - ⚙️ **Proses Oversampling Menggunakan RandomOverSampler...**
+2025-05-06 21:15:32,216 - INFO - ✅ Oversampling selesai.
+2025-05-06 21:15:32,217 - INFO - 📊 **Distribusi Data - Setelah Oversampling**
+2025-05-06 21:15:32,217 - INFO -    - Jurnal Predator      : 12603
+2025-05-06 21:15:32,217 - INFO -    - Jurnal Non-Predator  : 12603
+2025-05-06 21:15:33,115 - INFO - 🔍 **Jumlah Duplikasi Data Setelah Oversampling**: 2520600
+2025-05-06 21:15:33,115 - INFO - 🔍 Total duplikasi data yang ditemukan: 2520600
+2025-05-06 21:15:33,123 - INFO - 💾 **Hasil Oversampling Disimpan:**
+2025-05-06 21:15:33,123 - INFO -    → Vektor   : 7_oversampling_random/7_bfs_train_vectors_oversampled.npy
+2025-05-06 21:15:33,123 - INFO -    → Label    : 7_oversampling_random/7_bfs_train_labels_oversampled.npy
+2025-05-06 21:15:33,353 - INFO - ================================================================================
+2025-05-06 21:15:33,354 - INFO - 🚀 Memproses metode: DFS
+2025-05-06 21:15:33,354 - INFO - ================================================================================
+2025-05-06 21:15:33,354 - INFO - 📥 Memuat label dari 5_split_data/5_dfs_train.json...
+2025-05-06 21:15:35,003 - INFO - ✅ Total label: 13675
+2025-05-06 21:15:35,128 - INFO - 📥 Memuat vektor dari 6_vectorized_journal_data/6_dfs_train_vectors.npy...
+2025-05-06 21:15:35,130 - INFO - ✅ Shape vektor: (13675, 100)
+2025-05-06 21:15:35,130 - INFO - 📊 **Distribusi Data - Sebelum Oversampling**
+2025-05-06 21:15:35,130 - INFO -    - Jurnal Predator      : 1072
+2025-05-06 21:15:35,130 - INFO -    - Jurnal Non-Predator  : 12603
+2025-05-06 21:15:35,130 - INFO - ⚙️ **Proses Oversampling Menggunakan RandomOverSampler...**
+2025-05-06 21:15:35,136 - INFO - ✅ Oversampling selesai.
+2025-05-06 21:15:35,137 - INFO - 📊 **Distribusi Data - Setelah Oversampling**
+2025-05-06 21:15:35,137 - INFO -    - Jurnal Predator      : 12603
+2025-05-06 21:15:35,137 - INFO -    - Jurnal Non-Predator  : 12603
+2025-05-06 21:15:36,026 - INFO - 🔍 **Jumlah Duplikasi Data Setelah Oversampling**: 2520600
+2025-05-06 21:15:36,026 - INFO - 🔍 Total duplikasi data yang ditemukan: 2520600
+2025-05-06 21:15:36,034 - INFO - 💾 **Hasil Oversampling Disimpan:**
+2025-05-06 21:15:36,035 - INFO -    → Vektor   : 7_oversampling_random/7_dfs_train_vectors_oversampled.npy
+2025-05-06 21:15:36,035 - INFO -    → Label    : 7_oversampling_random/7_dfs_train_labels_oversampled.npy
+2025-05-06 21:15:36,260 - INFO - ================================================================================
+2025-05-06 21:15:36,260 - INFO - 🎯 **Proses Oversampling Selesai**
+2025-05-06 21:15:36,260 - INFO - ================================================================================

@@ -1,0 +1,23 @@
+2025-03-06 23:11:56 - INFO - 
+==================================================
+2025-03-06 23:11:56 - INFO - Memulai proses penggabungan dataset...
+2025-03-06 23:11:56 - INFO - ==================================================
+
+2025-03-06 23:11:56 - INFO - Mendeteksi delimiter untuk: datasets/journalcsv__doaj_20250105_1420_utf8.csv...
+2025-03-06 23:11:56 - INFO - Delimiter terdeteksi: ','
+2025-03-06 23:11:56 - INFO - Membaca dataset: datasets/journalcsv__doaj_20250105_1420_utf8.csv...
+2025-03-06 23:11:56 - INFO - Dataset datasets/journalcsv__doaj_20250105_1420_utf8.csv berhasil dibaca dengan 21269 baris.
+2025-03-06 23:11:56 - INFO - Total data dari DOAJ: 21269
+2025-03-06 23:11:56 - INFO - Mendeteksi delimiter untuk: datasets/predatory_Journals.csv...
+2025-03-06 23:11:56 - INFO - Delimiter terdeteksi: ','
+2025-03-06 23:11:56 - INFO - Membaca dataset: datasets/predatory_Journals.csv...
+2025-03-06 23:11:56 - INFO - Dataset datasets/predatory_Journals.csv berhasil dibaca dengan 2210 baris.
+2025-03-06 23:11:56 - INFO - Total data dari jurnal predator: 2210
+2025-03-06 23:11:56 - INFO - Menggabungkan kedua dataset...
+2025-03-06 23:11:56 - INFO - Total dataset setelah digabung: 23479 baris.
+2025-03-06 23:11:56 - INFO - File gabungan berhasil disimpan di: 1_combined_journal_data/1_combined_journal_data.csv
+2025-03-06 23:11:56 - INFO - 
+==================================================
+2025-03-06 23:11:56 - INFO - Proses penggabungan dataset selesai.
+2025-03-06 23:11:56 - INFO - ==================================================
+

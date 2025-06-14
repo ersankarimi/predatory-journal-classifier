@@ -1,0 +1,58 @@
+2025-06-14 17:14:18,751 - root - INFO - ================================================================================
+2025-06-14 17:14:18,751 - root - INFO - 🚀 MULAI TRAINING MODEL: DFS | Durasi: 105 Menit
+2025-06-14 17:14:18,751 - root - INFO - ================================================================================
+2025-06-14 17:14:18,766 - root - INFO - ✅ Data dimuat. X shape: (21782, 100), y shape: (21782,)
+2025-06-14 17:14:18,766 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 17:14:18
+2025-06-14 17:14:18,766 - root - INFO - 🔍 Training model...
+2025-06-14 18:59:20,258 - root - INFO - ✅ Training selesai!
+2025-06-14 18:59:20,259 - root - INFO - ⏳ TOTAL WAKTU: 6301.49 detik (105.02 menit)
+2025-06-14 18:59:29,272 - root - INFO - ✅ Model disimpan ke 8_classification/dfs_105min/8_dfs_model.pkl
+2025-06-14 18:59:29,275 - root - INFO - 🏆 Leaderboard:
+2025-06-14 18:59:29,284 - root - INFO - 
+          rank  ensemble_weight                 type      cost     duration
+model_id                                                                   
+107          2             0.06  k_nearest_neighbors  0.005564     5.053007
+124          1             0.04  k_nearest_neighbors  0.005564     4.340865
+125          4             0.02  k_nearest_neighbors  0.006260     3.399595
+136          3             0.06  k_nearest_neighbors  0.006260     3.742930
+132          5             0.02  k_nearest_neighbors  0.008068    29.290188
+15           6             0.18          extra_trees  0.009459    25.799039
+97           7             0.02        random_forest  0.010850   126.220388
+62           8             0.02        random_forest  0.012102   195.661938
+123          9             0.02        random_forest  0.012241   127.508299
+64          10             0.06        random_forest  0.012380   640.733580
+79          11             0.12        random_forest  0.012936   107.378703
+54          12             0.04        random_forest  0.015162    73.711642
+113         13             0.02        random_forest  0.015858   146.264055
+32          14             0.02  k_nearest_neighbors  0.016692    15.708830
+121         15             0.02        random_forest  0.019613   116.603184
+104         16             0.02        random_forest  0.020309   174.725907
+21          17             0.04                  mlp  0.021143    60.703942
+11          18             0.10          extra_trees  0.021422    25.633059
+63          19             0.02        random_forest  0.021422   127.704871
+51          20             0.02             adaboost  0.021839  1006.225255
+78          21             0.02        random_forest  0.021839    66.024973
+28          22             0.04          extra_trees  0.024760    11.848737
+14          23             0.02                  mlp  0.026151    17.222601
+2025-06-14 18:59:29,299 - root - INFO - 💡 Model Ensemble:
+2025-06-14 18:59:29,335 - root - INFO - 
+None
+2025-06-14 18:59:29,338 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 18:59:29,338 - root - INFO - ================================================================================
+2025-06-14 18:59:29,338 - root - INFO - 📌 Evaluasi Model: dfs
+2025-06-14 18:59:29,338 - root - INFO - ================================================================================
+2025-06-14 18:59:34,738 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9775    0.9217    0.9488      2964
+    Predator     0.4715    0.7667    0.5839       270
+
+    accuracy                         0.9088      3234
+   macro avg     0.7245    0.8442    0.7663      3234
+weighted avg     0.9352    0.9088    0.9183      3234
+
+2025-06-14 18:59:34,739 - root - INFO - 🎯 Akurasi: 0.9088
+2025-06-14 18:59:34,739 - root - INFO - 💾 Laporan disimpan di: 8_classification/dfs_105min/8_dfs_classification_report.txt
+2025-06-14 18:59:34,739 - root - INFO - ================================================================================
+2025-06-14 18:59:34,739 - root - INFO - ✅ Selesai
+2025-06-14 18:59:34,739 - root - INFO - ================================================================================

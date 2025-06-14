@@ -1,0 +1,54 @@
+2025-06-14 12:04:08,159 - root - INFO - ================================================================================
+2025-06-14 12:04:08,159 - root - INFO - 🚀 MULAI TRAINING MODEL: BFS | Durasi: 120 Menit
+2025-06-14 12:04:08,159 - root - INFO - ================================================================================
+2025-06-14 12:04:08,165 - root - INFO - ✅ Data dimuat. X shape: (21690, 100), y shape: (21690,)
+2025-06-14 12:04:08,166 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 12:04:08
+2025-06-14 12:04:08,166 - root - INFO - 🔍 Training model...
+2025-06-14 14:04:13,407 - root - INFO - ✅ Training selesai!
+2025-06-14 14:04:13,408 - root - INFO - ⏳ TOTAL WAKTU: 7205.24 detik (120.09 menit)
+2025-06-14 14:04:17,094 - root - INFO - ✅ Model disimpan ke 8_classification/bfs_120min/8_bfs_model.pkl
+2025-06-14 14:04:17,094 - root - INFO - 🏆 Leaderboard:
+2025-06-14 14:04:17,105 - root - INFO - 
+          rank  ensemble_weight                 type      cost  duration
+model_id                                                                
+135          1             0.06  k_nearest_neighbors  0.005029  3.485742
+154         17             0.06  k_nearest_neighbors  0.005029  3.526780
+168         16             0.06  k_nearest_neighbors  0.005029  3.896123
+174         15             0.04  k_nearest_neighbors  0.005029  3.428114
+183         14             0.04  k_nearest_neighbors  0.005029  3.554084
+184         13             0.02  k_nearest_neighbors  0.005029  3.574703
+190         12             0.02  k_nearest_neighbors  0.005029  3.867813
+197         11             0.02  k_nearest_neighbors  0.005029  3.583622
+206         18             0.02  k_nearest_neighbors  0.005029  3.337341
+210         10             0.10  k_nearest_neighbors  0.005029  3.385322
+212          8             0.02  k_nearest_neighbors  0.005029  3.214166
+213          7             0.06  k_nearest_neighbors  0.005029  3.399111
+214          6             0.02  k_nearest_neighbors  0.005029  3.377527
+219          5             0.14  k_nearest_neighbors  0.005029  3.407528
+232          4             0.06  k_nearest_neighbors  0.005029  3.369055
+240          3             0.12  k_nearest_neighbors  0.005029  3.177200
+249          2             0.08  k_nearest_neighbors  0.005029  3.358270
+271          9             0.04  k_nearest_neighbors  0.005029  3.663261
+284         19             0.02  k_nearest_neighbors  0.005029  3.537823
+2025-06-14 14:04:17,117 - root - INFO - 💡 Model Ensemble:
+2025-06-14 14:04:17,133 - root - INFO - 
+None
+2025-06-14 14:04:17,135 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 14:04:17,136 - root - INFO - ================================================================================
+2025-06-14 14:04:17,136 - root - INFO - 📌 Evaluasi Model: bfs
+2025-06-14 14:04:17,136 - root - INFO - ================================================================================
+2025-06-14 14:04:19,830 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9840    0.8904    0.9348      2964
+    Predator     0.4112    0.8407    0.5523       270
+
+    accuracy                         0.8862      3234
+   macro avg     0.6976    0.8655    0.7436      3234
+weighted avg     0.9362    0.8862    0.9029      3234
+
+2025-06-14 14:04:19,830 - root - INFO - 🎯 Akurasi: 0.8862
+2025-06-14 14:04:19,831 - root - INFO - 💾 Laporan disimpan di: 8_classification/bfs_120min/8_bfs_classification_report.txt
+2025-06-14 14:04:19,831 - root - INFO - ================================================================================
+2025-06-14 14:04:19,831 - root - INFO - ✅ Selesai
+2025-06-14 14:04:19,831 - root - INFO - ================================================================================

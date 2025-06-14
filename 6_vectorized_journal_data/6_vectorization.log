@@ -1,0 +1,163 @@
+2025-06-14 11:45:24,511 - INFO - ================================================================================
+2025-06-14 11:45:24,511 - INFO - === Memulai proses vektorisasi dengan Doc2Vec ===
+2025-06-14 11:45:24,511 - INFO - ================================================================================
+2025-06-14 11:45:24,511 - INFO - ================================================================================
+2025-06-14 11:45:24,511 - INFO - 🚀 Memproses file: 5_bfs_train.json (bfs_train)
+2025-06-14 11:45:24,511 - INFO - ================================================================================
+2025-06-14 11:45:24,511 - INFO - 📥 Memuat data dari 5_split_data/5_bfs_train.json...
+2025-06-14 11:45:25,937 - INFO - ✅ Total entri: 12936 dari 5_split_data/5_bfs_train.json
+2025-06-14 11:45:25,941 - INFO - ✅ Label disimpan di 6_vectorized_journal_data/6_bfs_train_labels.npy. Shape: (12936,)
+2025-06-14 11:45:25,974 - INFO - 🛠️ Inisialisasi model Doc2Vec...
+2025-06-14 11:45:26,006 - INFO - Doc2Vec lifecycle event {'params': 'Doc2Vec<dm/m,d100,n5,w5,s0.001,t3>', 'datetime': '2025-06-14T11:45:25.975468', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'created'}
+2025-06-14 11:45:26,006 - INFO - 📌 Membangun vocabulary...
+2025-06-14 11:45:26,006 - INFO - collecting all words and their counts
+2025-06-14 11:45:26,006 - INFO - PROGRESS: at example #0, processed 0 words (0 words/s), 0 word types, 0 tags
+2025-06-14 11:45:26,661 - INFO - PROGRESS: at example #10000, processed 6084272 words (9295643 words/s), 457 word types, 10000 tags
+2025-06-14 11:45:26,876 - INFO - collected 503 word types and 12936 unique tags from a corpus of 12936 examples and 7908704 words
+2025-06-14 11:45:26,876 - INFO - Creating a fresh vocabulary
+2025-06-14 11:45:26,878 - INFO - Doc2Vec lifecycle event {'msg': 'effective_min_count=1 retains 503 unique words (100.00% of original 503, drops 0)', 'datetime': '2025-06-14T11:45:26.878455', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:45:26,878 - INFO - Doc2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 7908704 word corpus (100.00% of original 7908704, drops 0)', 'datetime': '2025-06-14T11:45:26.878658', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:45:26,880 - INFO - deleting the raw counts dictionary of 503 items
+2025-06-14 11:45:26,881 - INFO - sample=0.001 downsamples 33 most-common words
+2025-06-14 11:45:26,881 - INFO - Doc2Vec lifecycle event {'msg': 'downsampling leaves estimated 1678965.9002227655 word corpus (21.2%% of prior 7908704)', 'datetime': '2025-06-14T11:45:26.881106', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:45:26,887 - INFO - estimated required memory for 503 words and 100 dimensions: 8415500 bytes
+2025-06-14 11:45:26,887 - INFO - resetting layer weights
+2025-06-14 11:45:26,893 - INFO - 🚀 Memulai proses training...
+2025-06-14 11:45:26,894 - INFO - Doc2Vec lifecycle event {'msg': 'training model with 3 workers on 503 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2025-06-14T11:45:26.894161', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'train'}
+2025-06-14 11:45:27,897 - INFO - EPOCH 0 - PROGRESS: at 75.36% examples, 1249028 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:28,215 - INFO - EPOCH 0: training on 7908704 raw words (1672918 effective words) took 1.3s, 1268052 effective words/s
+2025-06-14 11:45:29,217 - INFO - EPOCH 1 - PROGRESS: at 74.65% examples, 1238163 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:29,544 - INFO - EPOCH 1: training on 7908704 raw words (1671492 effective words) took 1.3s, 1258155 effective words/s
+2025-06-14 11:45:30,548 - INFO - EPOCH 2 - PROGRESS: at 74.53% examples, 1235489 words/s, in_qsize 6, out_qsize 1
+2025-06-14 11:45:30,872 - INFO - EPOCH 2: training on 7908704 raw words (1670801 effective words) took 1.3s, 1259403 effective words/s
+2025-06-14 11:45:31,874 - INFO - EPOCH 3 - PROGRESS: at 76.89% examples, 1273181 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:32,174 - INFO - EPOCH 3: training on 7908704 raw words (1672243 effective words) took 1.3s, 1285229 effective words/s
+2025-06-14 11:45:33,176 - INFO - EPOCH 4 - PROGRESS: at 67.15% examples, 1106184 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:33,632 - INFO - EPOCH 4: training on 7908704 raw words (1670748 effective words) took 1.5s, 1146918 effective words/s
+2025-06-14 11:45:34,634 - INFO - EPOCH 5 - PROGRESS: at 71.10% examples, 1178669 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:35,042 - INFO - EPOCH 5: training on 7908704 raw words (1670999 effective words) took 1.4s, 1185647 effective words/s
+2025-06-14 11:45:36,044 - INFO - EPOCH 6 - PROGRESS: at 72.61% examples, 1204419 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:36,411 - INFO - EPOCH 6: training on 7908704 raw words (1670043 effective words) took 1.4s, 1221198 effective words/s
+2025-06-14 11:45:37,412 - INFO - EPOCH 7 - PROGRESS: at 73.79% examples, 1227831 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:37,766 - INFO - EPOCH 7: training on 7908704 raw words (1672608 effective words) took 1.4s, 1235097 effective words/s
+2025-06-14 11:45:38,767 - INFO - EPOCH 8 - PROGRESS: at 77.56% examples, 1283856 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:39,063 - INFO - EPOCH 8: training on 7908704 raw words (1671864 effective words) took 1.3s, 1290111 effective words/s
+2025-06-14 11:45:40,064 - INFO - EPOCH 9 - PROGRESS: at 77.89% examples, 1288239 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:40,351 - INFO - EPOCH 9: training on 7908704 raw words (1672610 effective words) took 1.3s, 1298808 effective words/s
+2025-06-14 11:45:41,355 - INFO - EPOCH 10 - PROGRESS: at 77.85% examples, 1283892 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:41,649 - INFO - EPOCH 10: training on 7908704 raw words (1670537 effective words) took 1.3s, 1288411 effective words/s
+2025-06-14 11:45:42,651 - INFO - EPOCH 11 - PROGRESS: at 74.23% examples, 1231530 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:42,976 - INFO - EPOCH 11: training on 7908704 raw words (1671706 effective words) took 1.3s, 1260297 effective words/s
+2025-06-14 11:45:43,977 - INFO - EPOCH 12 - PROGRESS: at 77.56% examples, 1283690 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:44,272 - INFO - EPOCH 12: training on 7908704 raw words (1670707 effective words) took 1.3s, 1290658 effective words/s
+2025-06-14 11:45:45,275 - INFO - EPOCH 13 - PROGRESS: at 72.42% examples, 1200193 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:45,630 - INFO - EPOCH 13: training on 7908704 raw words (1671738 effective words) took 1.4s, 1231901 effective words/s
+2025-06-14 11:45:46,633 - INFO - EPOCH 14 - PROGRESS: at 75.05% examples, 1243600 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:47,007 - INFO - EPOCH 14: training on 7908704 raw words (1670778 effective words) took 1.4s, 1213503 effective words/s
+2025-06-14 11:45:48,009 - INFO - EPOCH 15 - PROGRESS: at 77.56% examples, 1282543 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:48,299 - INFO - EPOCH 15: training on 7908704 raw words (1670102 effective words) took 1.3s, 1293823 effective words/s
+2025-06-14 11:45:49,301 - INFO - EPOCH 16 - PROGRESS: at 73.11% examples, 1209155 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:49,660 - INFO - EPOCH 16: training on 7908704 raw words (1670507 effective words) took 1.4s, 1228780 effective words/s
+2025-06-14 11:45:50,661 - INFO - EPOCH 17 - PROGRESS: at 77.16% examples, 1278244 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:45:50,960 - INFO - EPOCH 17: training on 7908704 raw words (1672291 effective words) took 1.3s, 1287245 effective words/s
+2025-06-14 11:45:51,963 - INFO - EPOCH 18 - PROGRESS: at 74.91% examples, 1240850 words/s, in_qsize 5, out_qsize 1
+2025-06-14 11:45:52,300 - INFO - EPOCH 18: training on 7908704 raw words (1671221 effective words) took 1.3s, 1247842 effective words/s
+2025-06-14 11:45:53,302 - INFO - EPOCH 19 - PROGRESS: at 77.71% examples, 1284327 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:45:53,593 - INFO - EPOCH 19: training on 7908704 raw words (1670702 effective words) took 1.3s, 1293083 effective words/s
+2025-06-14 11:45:53,593 - INFO - Doc2Vec lifecycle event {'msg': 'training on 158174080 raw words (33426615 effective words) took 26.7s, 1251963 effective words/s', 'datetime': '2025-06-14T11:45:53.593627', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'train'}
+2025-06-14 11:45:53,593 - INFO - 💾 Menyimpan model ke 6_vectorized_journal_data/6_doc2vec_bfs_train.model...
+2025-06-14 11:45:53,593 - INFO - Doc2Vec lifecycle event {'fname_or_handle': '6_vectorized_journal_data/6_doc2vec_bfs_train.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2025-06-14T11:45:53.593767', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'saving'}
+2025-06-14 11:45:53,593 - INFO - not storing attribute cum_table
+2025-06-14 11:45:53,607 - INFO - saved 6_vectorized_journal_data/6_doc2vec_bfs_train.model
+2025-06-14 11:45:53,609 - INFO - 📊 Menghasilkan vektor untuk 6_vectorized_journal_data/6_bfs_train_vectors.npy...
+2025-06-14 11:46:28,354 - INFO - ✅ Vektor berhasil disimpan dalam 6_vectorized_journal_data/6_bfs_train_vectors.npy. Shape: (12936, 100)
+2025-06-14 11:46:28,354 - INFO - ================================================================================
+2025-06-14 11:46:28,354 - INFO - 🚀 Memproses file: 5_bfs_test.json (bfs_test)
+2025-06-14 11:46:28,354 - INFO - ================================================================================
+2025-06-14 11:46:28,354 - INFO - 📥 Memuat data dari 5_split_data/5_bfs_test.json...
+2025-06-14 11:46:28,662 - INFO - ✅ Total entri: 3234 dari 5_split_data/5_bfs_test.json
+2025-06-14 11:46:28,724 - INFO - ✅ Label disimpan di 6_vectorized_journal_data/6_bfs_test_labels.npy. Shape: (3234,)
+2025-06-14 11:46:28,724 - INFO - 📊 Menghasilkan vektor untuk 6_vectorized_journal_data/6_bfs_test_vectors.npy...
+2025-06-14 11:46:36,647 - INFO - ✅ Vektor berhasil disimpan dalam 6_vectorized_journal_data/6_bfs_test_vectors.npy. Shape: (3234, 100)
+2025-06-14 11:46:36,647 - INFO - ================================================================================
+2025-06-14 11:46:36,647 - INFO - 🚀 Memproses file: 5_dfs_train.json (dfs_train)
+2025-06-14 11:46:36,647 - INFO - ================================================================================
+2025-06-14 11:46:36,647 - INFO - 📥 Memuat data dari 5_split_data/5_dfs_train.json...
+2025-06-14 11:46:37,870 - INFO - ✅ Total entri: 12936 dari 5_split_data/5_dfs_train.json
+2025-06-14 11:46:37,890 - INFO - ✅ Label disimpan di 6_vectorized_journal_data/6_dfs_train_labels.npy. Shape: (12936,)
+2025-06-14 11:46:37,924 - INFO - 🛠️ Inisialisasi model Doc2Vec...
+2025-06-14 11:46:37,924 - INFO - Doc2Vec lifecycle event {'params': 'Doc2Vec<dm/m,d100,n5,w5,s0.001,t3>', 'datetime': '2025-06-14T11:46:37.924856', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'created'}
+2025-06-14 11:46:37,924 - INFO - 📌 Membangun vocabulary...
+2025-06-14 11:46:37,924 - INFO - collecting all words and their counts
+2025-06-14 11:46:37,925 - INFO - PROGRESS: at example #0, processed 0 words (0 words/s), 0 word types, 0 tags
+2025-06-14 11:46:38,508 - INFO - PROGRESS: at example #10000, processed 6084272 words (10425894 words/s), 457 word types, 10000 tags
+2025-06-14 11:46:38,730 - INFO - collected 503 word types and 12936 unique tags from a corpus of 12936 examples and 7908704 words
+2025-06-14 11:46:38,730 - INFO - Creating a fresh vocabulary
+2025-06-14 11:46:38,731 - INFO - Doc2Vec lifecycle event {'msg': 'effective_min_count=1 retains 503 unique words (100.00% of original 503, drops 0)', 'datetime': '2025-06-14T11:46:38.731817', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:46:38,731 - INFO - Doc2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 7908704 word corpus (100.00% of original 7908704, drops 0)', 'datetime': '2025-06-14T11:46:38.731935', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:46:38,734 - INFO - deleting the raw counts dictionary of 503 items
+2025-06-14 11:46:38,734 - INFO - sample=0.001 downsamples 33 most-common words
+2025-06-14 11:46:38,734 - INFO - Doc2Vec lifecycle event {'msg': 'downsampling leaves estimated 1678965.9002227657 word corpus (21.2%% of prior 7908704)', 'datetime': '2025-06-14T11:46:38.734218', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'prepare_vocab'}
+2025-06-14 11:46:38,737 - INFO - estimated required memory for 503 words and 100 dimensions: 8415500 bytes
+2025-06-14 11:46:38,737 - INFO - resetting layer weights
+2025-06-14 11:46:38,742 - INFO - 🚀 Memulai proses training...
+2025-06-14 11:46:38,742 - INFO - Doc2Vec lifecycle event {'msg': 'training model with 3 workers on 503 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2025-06-14T11:46:38.742676', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'train'}
+2025-06-14 11:46:39,745 - INFO - EPOCH 0 - PROGRESS: at 68.77% examples, 1140065 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:40,185 - INFO - EPOCH 0: training on 7908704 raw words (1672184 effective words) took 1.4s, 1159965 effective words/s
+2025-06-14 11:46:41,187 - INFO - EPOCH 1 - PROGRESS: at 71.90% examples, 1191894 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:41,575 - INFO - EPOCH 1: training on 7908704 raw words (1670079 effective words) took 1.4s, 1202898 effective words/s
+2025-06-14 11:46:42,577 - INFO - EPOCH 2 - PROGRESS: at 73.79% examples, 1226422 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:42,925 - INFO - EPOCH 2: training on 7908704 raw words (1673015 effective words) took 1.3s, 1239646 effective words/s
+2025-06-14 11:46:43,927 - INFO - EPOCH 3 - PROGRESS: at 63.50% examples, 1048751 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:44,493 - INFO - EPOCH 3: training on 7908704 raw words (1671043 effective words) took 1.6s, 1066074 effective words/s
+2025-06-14 11:46:45,495 - INFO - EPOCH 4 - PROGRESS: at 64.97% examples, 1075599 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:45,987 - INFO - EPOCH 4: training on 7908704 raw words (1670460 effective words) took 1.5s, 1119546 effective words/s
+2025-06-14 11:46:46,988 - INFO - EPOCH 5 - PROGRESS: at 68.12% examples, 1130687 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:47,436 - INFO - EPOCH 5: training on 7908704 raw words (1672051 effective words) took 1.4s, 1153951 effective words/s
+2025-06-14 11:46:48,438 - INFO - EPOCH 6 - PROGRESS: at 71.01% examples, 1179650 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:48,850 - INFO - EPOCH 6: training on 7908704 raw words (1672547 effective words) took 1.4s, 1183695 effective words/s
+2025-06-14 11:46:49,852 - INFO - EPOCH 7 - PROGRESS: at 71.68% examples, 1189777 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:50,320 - INFO - EPOCH 7: training on 7908704 raw words (1671451 effective words) took 1.5s, 1138131 effective words/s
+2025-06-14 11:46:51,321 - INFO - EPOCH 8 - PROGRESS: at 69.73% examples, 1156325 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:51,758 - INFO - EPOCH 8: training on 7908704 raw words (1671844 effective words) took 1.4s, 1163051 effective words/s
+2025-06-14 11:46:52,761 - INFO - EPOCH 9 - PROGRESS: at 68.92% examples, 1139508 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:53,182 - INFO - EPOCH 9: training on 7908704 raw words (1669275 effective words) took 1.4s, 1172740 effective words/s
+2025-06-14 11:46:54,184 - INFO - EPOCH 10 - PROGRESS: at 70.05% examples, 1161914 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:54,622 - INFO - EPOCH 10: training on 7908704 raw words (1673456 effective words) took 1.4s, 1163119 effective words/s
+2025-06-14 11:46:55,626 - INFO - EPOCH 11 - PROGRESS: at 74.91% examples, 1239692 words/s, in_qsize 6, out_qsize 0
+2025-06-14 11:46:55,983 - INFO - EPOCH 11: training on 7908704 raw words (1670269 effective words) took 1.4s, 1228031 effective words/s
+2025-06-14 11:46:56,988 - INFO - EPOCH 12 - PROGRESS: at 71.77% examples, 1189979 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:57,369 - INFO - EPOCH 12: training on 7908704 raw words (1671500 effective words) took 1.4s, 1208245 effective words/s
+2025-06-14 11:46:58,370 - INFO - EPOCH 13 - PROGRESS: at 67.88% examples, 1126191 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:46:58,839 - INFO - EPOCH 13: training on 7908704 raw words (1670615 effective words) took 1.5s, 1137548 effective words/s
+2025-06-14 11:46:59,840 - INFO - EPOCH 14 - PROGRESS: at 71.77% examples, 1190474 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:47:00,223 - INFO - EPOCH 14: training on 7908704 raw words (1671239 effective words) took 1.4s, 1208231 effective words/s
+2025-06-14 11:47:01,226 - INFO - EPOCH 15 - PROGRESS: at 74.51% examples, 1235862 words/s, in_qsize 4, out_qsize 1
+2025-06-14 11:47:01,563 - INFO - EPOCH 15: training on 7908704 raw words (1671403 effective words) took 1.3s, 1248715 effective words/s
+2025-06-14 11:47:02,566 - INFO - EPOCH 16 - PROGRESS: at 72.61% examples, 1202602 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:47:02,942 - INFO - EPOCH 16: training on 7908704 raw words (1671864 effective words) took 1.4s, 1213074 effective words/s
+2025-06-14 11:47:03,944 - INFO - EPOCH 17 - PROGRESS: at 69.73% examples, 1155971 words/s, in_qsize 6, out_qsize 1
+2025-06-14 11:47:04,348 - INFO - EPOCH 17: training on 7908704 raw words (1671502 effective words) took 1.4s, 1189395 effective words/s
+2025-06-14 11:47:05,350 - INFO - EPOCH 18 - PROGRESS: at 73.79% examples, 1227904 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:47:05,720 - INFO - EPOCH 18: training on 7908704 raw words (1673114 effective words) took 1.4s, 1220921 effective words/s
+2025-06-14 11:47:06,724 - INFO - EPOCH 19 - PROGRESS: at 73.93% examples, 1225061 words/s, in_qsize 5, out_qsize 0
+2025-06-14 11:47:07,088 - INFO - EPOCH 19: training on 7908704 raw words (1671097 effective words) took 1.4s, 1222072 effective words/s
+2025-06-14 11:47:07,088 - INFO - Doc2Vec lifecycle event {'msg': 'training on 158174080 raw words (33430008 effective words) took 28.3s, 1179351 effective words/s', 'datetime': '2025-06-14T11:47:07.088884', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'train'}
+2025-06-14 11:47:07,088 - INFO - 💾 Menyimpan model ke 6_vectorized_journal_data/6_doc2vec_dfs_train.model...
+2025-06-14 11:47:07,089 - INFO - Doc2Vec lifecycle event {'fname_or_handle': '6_vectorized_journal_data/6_doc2vec_dfs_train.model', 'separately': 'None', 'sep_limit': 10485760, 'ignore': frozenset(), 'datetime': '2025-06-14T11:47:07.089061', 'gensim': '4.3.3', 'python': '3.8.17 (default, Jan 22 2025, 23:55:59) \n[GCC 13.3.0]', 'platform': 'Linux-6.11.0-26-generic-x86_64-with-glibc2.38', 'event': 'saving'}
+2025-06-14 11:47:07,089 - INFO - not storing attribute cum_table
+2025-06-14 11:47:07,101 - INFO - saved 6_vectorized_journal_data/6_doc2vec_dfs_train.model
+2025-06-14 11:47:07,104 - INFO - 📊 Menghasilkan vektor untuk 6_vectorized_journal_data/6_dfs_train_vectors.npy...
+2025-06-14 11:47:41,601 - INFO - ✅ Vektor berhasil disimpan dalam 6_vectorized_journal_data/6_dfs_train_vectors.npy. Shape: (12936, 100)
+2025-06-14 11:47:41,601 - INFO - ================================================================================
+2025-06-14 11:47:41,601 - INFO - 🚀 Memproses file: 5_dfs_test.json (dfs_test)
+2025-06-14 11:47:41,601 - INFO - ================================================================================
+2025-06-14 11:47:41,601 - INFO - 📥 Memuat data dari 5_split_data/5_dfs_test.json...
+2025-06-14 11:47:41,878 - INFO - ✅ Total entri: 3234 dari 5_split_data/5_dfs_test.json
+2025-06-14 11:47:41,947 - INFO - ✅ Label disimpan di 6_vectorized_journal_data/6_dfs_test_labels.npy. Shape: (3234,)
+2025-06-14 11:47:41,947 - INFO - 📊 Menghasilkan vektor untuk 6_vectorized_journal_data/6_dfs_test_vectors.npy...
+2025-06-14 11:47:49,971 - INFO - ✅ Vektor berhasil disimpan dalam 6_vectorized_journal_data/6_dfs_test_vectors.npy. Shape: (3234, 100)
+2025-06-14 11:47:49,971 - INFO - ================================================================================
+2025-06-14 11:47:49,971 - INFO - === Proses vektorisasi selesai ===
+2025-06-14 11:47:49,971 - INFO - 📊 Log waktu eksekusi disimpan di 6_vectorized_journal_data/6_execution_time.json
+2025-06-14 11:47:49,971 - INFO - ================================================================================

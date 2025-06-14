@@ -1,0 +1,53 @@
+2025-06-14 19:10:09,498 - root - INFO - ================================================================================
+2025-06-14 19:10:09,498 - root - INFO - 🚀 MULAI TRAINING MODEL: DFS | Durasi: 60 Menit
+2025-06-14 19:10:09,498 - root - INFO - ================================================================================
+2025-06-14 19:10:09,516 - root - INFO - ✅ Data dimuat. X shape: (21782, 100), y shape: (21782,)
+2025-06-14 19:10:09,516 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 19:10:09
+2025-06-14 19:10:09,516 - root - INFO - 🔍 Training model...
+2025-06-14 20:10:09,216 - root - INFO - ✅ Training selesai!
+2025-06-14 20:10:09,221 - root - INFO - ⏳ TOTAL WAKTU: 3599.70 detik (59.99 menit)
+2025-06-14 20:10:14,608 - root - INFO - ✅ Model disimpan ke 8_classification/dfs_60min/8_dfs_model.pkl
+2025-06-14 20:10:14,608 - root - INFO - 🏆 Leaderboard:
+2025-06-14 20:10:14,612 - root - INFO - 
+          rank  ensemble_weight                 type      cost    duration
+model_id                                                                  
+164          1             0.04  k_nearest_neighbors  0.004034    3.431869
+143          2             0.02  k_nearest_neighbors  0.004451    7.314481
+112          4             0.02  k_nearest_neighbors  0.005564    9.391411
+149          3             0.02  k_nearest_neighbors  0.005564    7.192198
+98           5             0.04  k_nearest_neighbors  0.005703   34.573430
+174          6             0.04  k_nearest_neighbors  0.006260    3.159173
+128          7             0.04  k_nearest_neighbors  0.006399   12.337780
+15           8             0.20          extra_trees  0.009459   29.856292
+67           9             0.02        random_forest  0.012102  130.344722
+126         10             0.02  k_nearest_neighbors  0.012936   60.087368
+91          11             0.16        random_forest  0.014049   75.480489
+109         12             0.02  k_nearest_neighbors  0.015997    9.333315
+2           13             0.06        random_forest  0.016553   90.192808
+11          14             0.12          extra_trees  0.021422   22.414254
+13          15             0.02  k_nearest_neighbors  0.025316   23.387327
+90          16             0.02                  mlp  0.025595   71.302975
+145         17             0.04          extra_trees  0.027820   12.679641
+96          18             0.10        random_forest  0.028098   54.492679
+2025-06-14 20:10:14,623 - root - INFO - 💡 Model Ensemble:
+2025-06-14 20:10:14,645 - root - INFO - 
+None
+2025-06-14 20:10:14,646 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 20:10:14,646 - root - INFO - ================================================================================
+2025-06-14 20:10:14,646 - root - INFO - 📌 Evaluasi Model: dfs
+2025-06-14 20:10:14,646 - root - INFO - ================================================================================
+2025-06-14 20:10:19,517 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9805    0.9140    0.9460      2964
+    Predator     0.4586    0.8000    0.5830       270
+
+    accuracy                         0.9045      3234
+   macro avg     0.7195    0.8570    0.7645      3234
+weighted avg     0.9369    0.9045    0.9157      3234
+
+2025-06-14 20:10:19,518 - root - INFO - 🎯 Akurasi: 0.9045
+2025-06-14 20:10:19,518 - root - INFO - 💾 Laporan disimpan di: 8_classification/dfs_60min/8_dfs_classification_report.txt
+2025-06-14 20:10:19,518 - root - INFO - ================================================================================
+2025-06-14 20:10:19,519 - root - INFO - ✅ Selesai
+2025-06-14 20:10:19,519 - root - INFO - ================================================================================

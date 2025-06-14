@@ -1,0 +1,57 @@
+2025-06-14 15:12:19,372 - root - INFO - ================================================================================
+2025-06-14 15:12:19,372 - root - INFO - 🚀 MULAI TRAINING MODEL: DFS | Durasi: 120 Menit
+2025-06-14 15:12:19,372 - root - INFO - ================================================================================
+2025-06-14 15:12:19,385 - root - INFO - ✅ Data dimuat. X shape: (21782, 100), y shape: (21782,)
+2025-06-14 15:12:19,385 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 15:12:19
+2025-06-14 15:12:19,385 - root - INFO - 🔍 Training model...
+2025-06-14 17:12:30,848 - root - INFO - ✅ Training selesai!
+2025-06-14 17:12:30,849 - root - INFO - ⏳ TOTAL WAKTU: 7211.46 detik (120.19 menit)
+2025-06-14 17:12:59,493 - root - INFO - ✅ Model disimpan ke 8_classification/dfs_120min/8_dfs_model.pkl
+2025-06-14 17:12:59,496 - root - INFO - 🏆 Leaderboard:
+2025-06-14 17:12:59,707 - root - INFO - 
+          rank  ensemble_weight                 type      cost   duration
+model_id                                                                 
+281          1             0.02          extra_trees  0.007511  14.273033
+188          2             0.04          extra_trees  0.007790  12.675091
+261          3             0.04          extra_trees  0.007929  10.908455
+52           4             0.06  k_nearest_neighbors  0.008068  29.719842
+162          5             0.10  k_nearest_neighbors  0.008068  30.936171
+222          6             0.04          extra_trees  0.008207  15.714880
+104          7             0.02          extra_trees  0.008346  12.965070
+174          9             0.02          extra_trees  0.008485  10.272763
+341         10             0.02          extra_trees  0.008485  24.210716
+344          8             0.06          extra_trees  0.008485  19.028786
+154         11             0.02          extra_trees  0.008624  11.636750
+329         12             0.08          extra_trees  0.008624  22.566831
+116         13             0.02          extra_trees  0.008763  14.831213
+207         15             0.02          extra_trees  0.008763  10.229944
+360         14             0.08          extra_trees  0.008763  27.194870
+361         16             0.02          extra_trees  0.008902  22.642516
+353         17             0.10          extra_trees  0.009181  22.296295
+176         19             0.02          extra_trees  0.009320  11.612831
+182         18             0.02          extra_trees  0.009320  11.499983
+15          22             0.16          extra_trees  0.009459  28.689440
+79          20             0.02          extra_trees  0.009459  18.532765
+324         21             0.02          extra_trees  0.009459  13.179064
+2025-06-14 17:13:00,012 - root - INFO - 💡 Model Ensemble:
+2025-06-14 17:13:00,246 - root - INFO - 
+None
+2025-06-14 17:13:00,348 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 17:13:00,348 - root - INFO - ================================================================================
+2025-06-14 17:13:00,349 - root - INFO - 📌 Evaluasi Model: dfs
+2025-06-14 17:13:00,349 - root - INFO - ================================================================================
+2025-06-14 17:13:11,079 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9780    0.9305    0.9537      2964
+    Predator     0.5024    0.7704    0.6082       270
+
+    accuracy                         0.9171      3234
+   macro avg     0.7402    0.8504    0.7809      3234
+weighted avg     0.9383    0.9171    0.9248      3234
+
+2025-06-14 17:13:11,080 - root - INFO - 🎯 Akurasi: 0.9171
+2025-06-14 17:13:11,080 - root - INFO - 💾 Laporan disimpan di: 8_classification/dfs_120min/8_dfs_classification_report.txt
+2025-06-14 17:13:11,080 - root - INFO - ================================================================================
+2025-06-14 17:13:11,080 - root - INFO - ✅ Selesai
+2025-06-14 17:13:11,080 - root - INFO - ================================================================================

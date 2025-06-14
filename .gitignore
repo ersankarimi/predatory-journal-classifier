@@ -1,0 +1,38 @@
+# Virtual environment
+.venv*/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs and debug
+# *.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+
+# Dataset
+3_scraped_journal_data/3_scraped_journal_data.json
+4_preprocess_scraped_data/4_dfs_preprocess_scraped_data.json
+4_preprocess_scraped_data/4_bfs_preprocess_scraped_data.json
+5_split_data/5_bfs_train.json
+5_split_data/5_dfs_train.json
+.qodo
+
+*.pkl

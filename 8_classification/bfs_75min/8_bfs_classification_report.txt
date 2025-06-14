@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+Non-Predator     0.9785    0.9227    0.9498      2964
+    Predator     0.4784    0.7778    0.5924       270
+
+    accuracy                         0.9106      3234
+   macro avg     0.7284    0.8503    0.7711      3234
+weighted avg     0.9368    0.9106    0.9200      3234
+
+Akurasi: 0.9106

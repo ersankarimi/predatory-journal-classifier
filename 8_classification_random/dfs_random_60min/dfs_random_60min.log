@@ -1,0 +1,52 @@
+2025-05-07 11:20:46,059 - root - INFO - ================================================================================
+2025-05-07 11:20:46,059 - root - INFO - 🚀 MEMULAI PELATIHAN MODEL: DFS_RANDOM_60MIN
+2025-05-07 11:20:46,059 - root - INFO - ================================================================================
+2025-05-07 11:20:46,075 - root - INFO - ✅ Data berhasil dimuat. X shape: (25206, 100), y shape: (25206,)
+2025-05-07 11:20:46,075 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-05-07 11:20:46
+2025-05-07 11:20:46,075 - root - INFO - 🔍 Memulai training model...
+2025-05-07 12:21:15,921 - root - INFO - ✅ Training selesai!
+2025-05-07 12:21:15,922 - root - INFO - ⏳ TOTAL WAKTU PELATIHAN: 3629.85 detik (60.50 menit)
+2025-05-07 12:21:15,922 - root - INFO - ⌛ Pelatihan selesai pada: 2025-05-07 12:21:15
+2025-05-07 12:21:38,561 - root - INFO - ✅ Model disimpan ke 8_classification_random/dfs_random_60min/dfs_random_60min_model.pkl
+2025-05-07 12:21:38,562 - root - INFO - 🏆 Leaderboard Model:
+2025-05-07 12:21:39,032 - root - INFO - 
+          rank  ensemble_weight         type      cost   duration
+model_id                                                         
+213          1             0.24  extra_trees  0.003847   7.863365
+174          2             0.02  extra_trees  0.003967   9.865307
+12           3             0.18  extra_trees  0.004208  26.405594
+149          4             0.02  extra_trees  0.004328   8.164768
+118          5             0.06  extra_trees  0.004448   9.956753
+175          6             0.02  extra_trees  0.004448  11.521988
+95           7             0.12  extra_trees  0.004568   9.220919
+110          8             0.02  extra_trees  0.004568   9.450615
+102          9             0.02  extra_trees  0.004689   8.269397
+184         10             0.06  extra_trees  0.004689  12.235644
+197         11             0.02  extra_trees  0.004689  14.938523
+200         12             0.10  extra_trees  0.004689  10.755222
+220         13             0.02  extra_trees  0.004809  13.804538
+169         14             0.02  extra_trees  0.004929  10.292045
+134         15             0.02  extra_trees  0.005049   9.370826
+83          16             0.06     adaboost  0.005290  36.709562
+2025-05-07 12:21:39,135 - root - INFO - 💡 Ensemble Model:
+2025-05-07 12:21:39,212 - root - INFO - 
+None
+2025-05-07 12:21:39,330 - root - INFO - ✅ Data berhasil dimuat. X shape: (3420, 100), y shape: (3420,)
+2025-05-07 12:21:39,330 - root - INFO - ================================================================================
+2025-05-07 12:21:39,331 - root - INFO - 📌 Memulai Pengujian Model: dfs_random_60min
+2025-05-07 12:21:39,331 - root - INFO - ================================================================================
+2025-05-07 12:21:45,289 - root - INFO - 📊 Hasil Evaluasi Model dfs_random_60min:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9370    0.9911    0.9633      3151
+    Predator     0.6782    0.2193    0.3315       269
+
+    accuracy                         0.9304      3420
+   macro avg     0.8076    0.6052    0.6474      3420
+weighted avg     0.9166    0.9304    0.9136      3420
+
+2025-05-07 12:21:45,289 - root - INFO - 🎯 Akurasi Model: 0.9304
+2025-05-07 12:21:45,290 - root - INFO - 💾 Laporan hasil disimpan di: 8_classification_random/dfs_random_60min/dfs_random_60min_classification_report.txt
+2025-05-07 12:21:45,290 - root - INFO - ================================================================================
+2025-05-07 12:21:45,290 - root - INFO - ✅ Selesai
+2025-05-07 12:21:45,290 - root - INFO - ================================================================================

@@ -1,0 +1,46 @@
+2025-06-14 18:53:40,232 - root - INFO - ================================================================================
+2025-06-14 18:53:40,232 - root - INFO - 🚀 MULAI TRAINING MODEL: BFS | Durasi: 10 Menit
+2025-06-14 18:53:40,232 - root - INFO - ================================================================================
+2025-06-14 18:53:40,254 - root - INFO - ✅ Data dimuat. X shape: (21690, 100), y shape: (21690,)
+2025-06-14 18:53:40,254 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 18:53:40
+2025-06-14 18:53:40,255 - root - INFO - 🔍 Training model...
+2025-06-14 19:03:44,634 - root - INFO - ✅ Training selesai!
+2025-06-14 19:03:44,634 - root - INFO - ⏳ TOTAL WAKTU: 604.38 detik (10.07 menit)
+2025-06-14 19:03:47,882 - root - INFO - ✅ Model disimpan ke 8_classification/bfs_10min/8_bfs_model.pkl
+2025-06-14 19:03:47,883 - root - INFO - 🏆 Leaderboard:
+2025-06-14 19:03:47,885 - root - INFO - 
+          rank  ensemble_weight                 type      cost    duration
+model_id                                                                  
+17           1             0.46          extra_trees  0.011316   26.380459
+2            2             0.10        random_forest  0.016345  102.021635
+33           3             0.04                  mlp  0.025985   55.418221
+14           4             0.10  k_nearest_neighbors  0.026125   18.642150
+12           5             0.06                  mlp  0.028639   17.932350
+11           6             0.02        random_forest  0.031014   29.186653
+21           7             0.04                  mlp  0.069852    7.151204
+28           8             0.04          extra_trees  0.171696    9.411227
+8            9             0.02                  lda  0.202850    2.605984
+35          10             0.10          extra_trees  0.315451    8.014688
+6           11             0.02          gaussian_nb  0.338921   11.931362
+2025-06-14 19:03:47,896 - root - INFO - 💡 Model Ensemble:
+2025-06-14 19:03:47,912 - root - INFO - 
+None
+2025-06-14 19:03:47,913 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 19:03:47,913 - root - INFO - ================================================================================
+2025-06-14 19:03:47,913 - root - INFO - 📌 Evaluasi Model: bfs
+2025-06-14 19:03:47,913 - root - INFO - ================================================================================
+2025-06-14 19:03:49,381 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9780    0.9302    0.9535      2964
+    Predator     0.5012    0.7704    0.6073       270
+
+    accuracy                         0.9168      3234
+   macro avg     0.7396    0.8503    0.7804      3234
+weighted avg     0.9382    0.9168    0.9246      3234
+
+2025-06-14 19:03:49,382 - root - INFO - 🎯 Akurasi: 0.9168
+2025-06-14 19:03:49,384 - root - INFO - 💾 Laporan disimpan di: 8_classification/bfs_10min/8_bfs_classification_report.txt
+2025-06-14 19:03:49,384 - root - INFO - ================================================================================
+2025-06-14 19:03:49,384 - root - INFO - ✅ Selesai
+2025-06-14 19:03:49,384 - root - INFO - ================================================================================

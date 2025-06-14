@@ -1,0 +1,36 @@
+2025-06-14 20:41:38,323 - root - INFO - ================================================================================
+2025-06-14 20:41:38,324 - root - INFO - 🚀 MULAI TRAINING MODEL: DFS | Durasi: 10 Menit
+2025-06-14 20:41:38,324 - root - INFO - ================================================================================
+2025-06-14 20:41:38,339 - root - INFO - ✅ Data dimuat. X shape: (21782, 100), y shape: (21782,)
+2025-06-14 20:41:38,339 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 20:41:38
+2025-06-14 20:41:38,339 - root - INFO - 🔍 Training model...
+2025-06-14 20:51:41,256 - root - INFO - ✅ Training selesai!
+2025-06-14 20:51:41,257 - root - INFO - ⏳ TOTAL WAKTU: 602.92 detik (10.05 menit)
+2025-06-14 20:51:41,998 - root - INFO - ✅ Model disimpan ke 8_classification/dfs_10min/8_dfs_model.pkl
+2025-06-14 20:51:41,998 - root - INFO - 🏆 Leaderboard:
+2025-06-14 20:51:42,000 - root - INFO - 
+          rank  ensemble_weight                 type      cost  duration
+model_id                                                                
+30           1              1.0  k_nearest_neighbors  0.004034  3.329458
+2025-06-14 20:51:42,009 - root - INFO - 💡 Model Ensemble:
+2025-06-14 20:51:42,012 - root - INFO - 
+None
+2025-06-14 20:51:42,012 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 20:51:42,012 - root - INFO - ================================================================================
+2025-06-14 20:51:42,013 - root - INFO - 📌 Evaluasi Model: dfs
+2025-06-14 20:51:42,013 - root - INFO - ================================================================================
+2025-06-14 20:51:42,194 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9687    0.9096    0.9382      2964
+    Predator     0.4058    0.6778    0.5076       270
+
+    accuracy                         0.8902      3234
+   macro avg     0.6873    0.7937    0.7229      3234
+weighted avg     0.9217    0.8902    0.9023      3234
+
+2025-06-14 20:51:42,195 - root - INFO - 🎯 Akurasi: 0.8902
+2025-06-14 20:51:42,195 - root - INFO - 💾 Laporan disimpan di: 8_classification/dfs_10min/8_dfs_classification_report.txt
+2025-06-14 20:51:42,195 - root - INFO - ================================================================================
+2025-06-14 20:51:42,195 - root - INFO - ✅ Selesai
+2025-06-14 20:51:42,195 - root - INFO - ================================================================================

@@ -1,0 +1,41 @@
+2025-06-14 18:41:54,764 - root - INFO - ================================================================================
+2025-06-14 18:41:54,764 - root - INFO - 🚀 MULAI TRAINING MODEL: BFS | Durasi: 15 Menit
+2025-06-14 18:41:54,764 - root - INFO - ================================================================================
+2025-06-14 18:41:54,775 - root - INFO - ✅ Data dimuat. X shape: (21690, 100), y shape: (21690,)
+2025-06-14 18:41:54,775 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-06-14 18:41:54
+2025-06-14 18:41:54,775 - root - INFO - 🔍 Training model...
+2025-06-14 18:56:56,290 - root - INFO - ✅ Training selesai!
+2025-06-14 18:56:56,291 - root - INFO - ⏳ TOTAL WAKTU: 901.51 detik (15.03 menit)
+2025-06-14 18:56:59,127 - root - INFO - ✅ Model disimpan ke 8_classification/bfs_15min/8_bfs_model.pkl
+2025-06-14 18:56:59,127 - root - INFO - 🏆 Leaderboard:
+2025-06-14 18:56:59,130 - root - INFO - 
+          rank  ensemble_weight                 type      cost    duration
+model_id                                                                  
+17           1             0.10          extra_trees  0.011316   36.785172
+57           2             0.02        random_forest  0.016066  129.624795
+14           3             0.02  k_nearest_neighbors  0.026125   16.771035
+21           4             0.02                  mlp  0.069852    7.698459
+26           5             0.04             adaboost  0.094579  129.817723
+54           6             0.80                  sgd  0.454876    7.211557
+2025-06-14 18:56:59,145 - root - INFO - 💡 Model Ensemble:
+2025-06-14 18:56:59,160 - root - INFO - 
+None
+2025-06-14 18:56:59,161 - root - INFO - ✅ Data dimuat. X shape: (3234, 100), y shape: (3234,)
+2025-06-14 18:56:59,161 - root - INFO - ================================================================================
+2025-06-14 18:56:59,161 - root - INFO - 📌 Evaluasi Model: bfs
+2025-06-14 18:56:59,162 - root - INFO - ================================================================================
+2025-06-14 18:57:00,916 - root - INFO - 📊 Laporan Evaluasi:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9757    0.9356    0.9552      2964
+    Predator     0.5128    0.7444    0.6073       270
+
+    accuracy                         0.9196      3234
+   macro avg     0.7442    0.8400    0.7812      3234
+weighted avg     0.9371    0.9196    0.9262      3234
+
+2025-06-14 18:57:00,917 - root - INFO - 🎯 Akurasi: 0.9196
+2025-06-14 18:57:00,918 - root - INFO - 💾 Laporan disimpan di: 8_classification/bfs_15min/8_bfs_classification_report.txt
+2025-06-14 18:57:00,918 - root - INFO - ================================================================================
+2025-06-14 18:57:00,918 - root - INFO - ✅ Selesai
+2025-06-14 18:57:00,918 - root - INFO - ================================================================================

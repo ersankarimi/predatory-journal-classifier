@@ -1,0 +1,32 @@
+{
+    "5_split_data/5_bfs_train.json": {
+        "load_data": 1.4262118339538574
+    },
+    "6_vectorized_journal_data/6_doc2vec_bfs_train.model": {
+        "train_doc2vec": 27.66604709625244
+    },
+    "6_vectorized_journal_data/6_bfs_train_vectors.npy": {
+        "infer_vectors": 34.74449920654297
+    },
+    "5_split_data/5_bfs_test.json": {
+        "load_data": 0.3077361583709717
+    },
+    "6_vectorized_journal_data/6_bfs_test_vectors.npy": {
+        "infer_vectors": 7.923205852508545
+    },
+    "5_split_data/5_dfs_train.json": {
+        "load_data": 1.222825527191162
+    },
+    "6_vectorized_journal_data/6_doc2vec_dfs_train.model": {
+        "train_doc2vec": 29.21083092689514
+    },
+    "6_vectorized_journal_data/6_dfs_train_vectors.npy": {
+        "infer_vectors": 34.4967577457428
+    },
+    "5_split_data/5_dfs_test.json": {
+        "load_data": 0.277087926864624
+    },
+    "6_vectorized_journal_data/6_dfs_test_vectors.npy": {
+        "infer_vectors": 8.024302244186401
+    }
+}

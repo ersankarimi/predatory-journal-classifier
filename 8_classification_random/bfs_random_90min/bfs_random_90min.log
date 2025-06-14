@@ -1,0 +1,47 @@
+2025-05-06 22:54:48,609 - root - INFO - ================================================================================
+2025-05-06 22:54:48,609 - root - INFO - 🚀 MEMULAI PELATIHAN MODEL: BFS_RANDOM_90MIN
+2025-05-06 22:54:48,609 - root - INFO - ================================================================================
+2025-05-06 22:54:48,615 - root - INFO - ✅ Data berhasil dimuat. X shape: (25206, 100), y shape: (25206,)
+2025-05-06 22:54:48,616 - root - INFO - ⏳ Pelatihan dimulai pada: 2025-05-06 22:54:48
+2025-05-06 22:54:48,616 - root - INFO - 🔍 Memulai training model...
+2025-05-07 00:24:57,424 - root - INFO - ✅ Training selesai!
+2025-05-07 00:24:57,424 - root - INFO - ⏳ TOTAL WAKTU PELATIHAN: 5408.81 detik (90.15 menit)
+2025-05-07 00:24:57,424 - root - INFO - ⌛ Pelatihan selesai pada: 2025-05-07 00:24:57
+2025-05-07 00:25:01,934 - root - INFO - ✅ Model disimpan ke 8_classification_random/bfs_random_90min/bfs_random_90min_model.pkl
+2025-05-07 00:25:01,934 - root - INFO - 🏆 Leaderboard Model:
+2025-05-07 00:25:01,937 - root - INFO - 
+          rank  ensemble_weight                 type      cost    duration
+model_id                                                                  
+116          1             0.42        random_forest  0.003607   86.147849
+115          2             0.08        random_forest  0.003847  102.039535
+12           3             0.04          extra_trees  0.003967   22.470163
+118          4             0.12        random_forest  0.003967  108.385299
+90           5             0.06        random_forest  0.004208  101.799198
+108          6             0.10        random_forest  0.004328  103.954524
+103          7             0.02        random_forest  0.004809   96.045532
+68           8             0.08        random_forest  0.005290  139.705437
+65           9             0.02             adaboost  0.006612  328.568779
+47          10             0.04        random_forest  0.010339   67.931574
+25          11             0.02  k_nearest_neighbors  0.025246   34.725887
+2025-05-07 00:25:01,947 - root - INFO - 💡 Ensemble Model:
+2025-05-07 00:25:01,963 - root - INFO - 
+None
+2025-05-07 00:25:01,963 - root - INFO - ✅ Data berhasil dimuat. X shape: (3420, 100), y shape: (3420,)
+2025-05-07 00:25:01,964 - root - INFO - ================================================================================
+2025-05-07 00:25:01,964 - root - INFO - 📌 Memulai Pengujian Model: bfs_random_90min
+2025-05-07 00:25:01,964 - root - INFO - ================================================================================
+2025-05-07 00:25:05,191 - root - INFO - 📊 Hasil Evaluasi Model bfs_random_90min:
+              precision    recall  f1-score   support
+
+Non-Predator     0.9411    0.9889    0.9644      3151
+    Predator     0.6789    0.2751    0.3915       269
+
+    accuracy                         0.9327      3420
+   macro avg     0.8100    0.6320    0.6780      3420
+weighted avg     0.9205    0.9327    0.9193      3420
+
+2025-05-07 00:25:05,191 - root - INFO - 🎯 Akurasi Model: 0.9327
+2025-05-07 00:25:05,192 - root - INFO - 💾 Laporan hasil disimpan di: 8_classification_random/bfs_random_90min/bfs_random_90min_classification_report.txt
+2025-05-07 00:25:05,192 - root - INFO - ================================================================================
+2025-05-07 00:25:05,192 - root - INFO - ✅ Selesai
+2025-05-07 00:25:05,192 - root - INFO - ================================================================================

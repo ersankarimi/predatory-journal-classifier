@@ -1,0 +1,211 @@
+Assalamu'alaikum pak, saya ingin asistensi terkait hasil model dan peforma model saya.
+
+Total Dataset awal yang ada itu yaitu:
+
+- Dataset Non-Predator: 21269
+- Dataset Predator: 2210
+- Total Dataset: 23479
+
+
+Setelah itu saya melakukan filtering dataset mana yang duplikasi berdasarkan url journal. Dari hasil filtering, data diperoleh sbg berikut:
+
+
+- Dataset Predator: 1931
+- Dataset Non-Predator: 21154
+- Total Dataset Duplikasi yang dihapus: 394
+
+Setelah itu saya melakukan proses scraping jurnal. Dari hasil scraping, data diperoleh sbg berikut:
+
+Total data yang akan diproses:
+- Dataset Non-Predator: 21154
+- Dataset Predator: 1931
+- Total Dataset: 23085
+
+Total Hasil scraping yaitu:
+- ✅ Total berhasil: 17095 dari 23085 (74.05%)
+- ❌ Total gagal: 5990 dari 23085 (25.95%)
+- 🔹 Berhasil (Predator)    : 1341 (7.84%)
+- 🔹 Berhasil (Non-Predator): 15754 (92.16%)
+
+Setelah itu saya melakukan proses ekstraksi tag-tag html yang ada didalam tag body dari hasil scraping. Proses ekstraksi ini menggunakan transversal BFS dan DFS.
+
+Lalu saya melakukan proses pembagian data menjadi data train dan data test (80% train dan 20% test). Dari hasil pembagian data, data diperoleh sbg berikut:
+
+- Data 5_bfs berhasil dibagi:
+  - Train = 13675 (Predator: 1072, Non-Predator: 12603)
+  - Test  = 3420 (Predator: 269, Non-Predator: 3151)
+
+- Data 5_dfs berhasil dibagi:
+  - Train = 13675 (Predator: 1072, Non-Predator: 12603)
+  - Test  = 3420 (Predator: 269, Non-Predator: 3151)
+
+
+Setelah proses pembagian data, saya melakukan proses vektorisasi menggunakan Doc2Vec. Dari hasil vektorisasi. Adapun hyperparameter yang saya gunakan adalah sebagai berikut:
+
+
+```
+Doc2Vec(
+  vector_size=100, # ukuran vektor yang dihasilkan
+  window=5, # jumlah kata yang dilihat sebelum dan sesudah kata yang sedang diproses
+  min_count=1, # jumlah minimum kata yang harus ada agar kata tersebut diikutsertakan dalam proses training
+  dm=1, # metode yang digunakan dalam training, 1: distributed memory, 0: distributed bag of words
+  epochs=20 # jumlah iterasi training
+)
+```
+
+Karena data train yang imblance ini saya melakukan proses oversampling menggunakan SMOTEENN. Dari hasil oversampling, data diperoleh sbg berikut:
+
+BFS:
+
+- Data Sebelum Oversampling:
+  - Jurnal Predator      : 1072
+  - Jurnal Non-Predator  : 12603
+
+- Data Setelah Oversampling:
+  - Jurnal Predator      : 12564
+  - Jurnal Non-Predator  : 10374
+
+DFS:
+
+- Data Sebelum Oversampling:
+  - Jurnal Predator      : 1072
+  - Jurnal Non-Predator  : 12603
+
+- Data Setelah Oversampling:
+  - Jurnal Predator      : 12567
+  - Jurnal Non-Predator  : 10450
+
+Setelah itu saya melakukan proses training model klasifikasi menggunakan AutoML (auto-sklearn).
+
+Berikut hyperparameter yang saya gunakan:
+
+```
+automl = AutoSklearnClassifier(
+    time_left_for_this_task=7200,
+    n_jobs=2,
+    seed=42,
+    memory_limit=8192,
+    logging_config=logging_configdict,  # Menambahkan konfigurasi logging
+    metric=metrics.balanced_accuracy
+)
+```
+
+Dari hasil training akan dilakukan pengujian model menggunakan data test. Data test nya adalah sebagai berikut:
+
+- Data Test BFS:
+  - Total Data Test: 3420
+  - Jurnal Predator      : 269
+  - Jurnal Non-Predator  : 3151
+
+- Data Test DFS:
+  - Total Data Test: 3420
+  - Jurnal Predator      : 269
+  - Jurnal Non-Predator  : 3151
+
+
+Setelah proses training model, saya akan melakukan evaluasi model menggunakan data test. Dari hasil evaluasi model, data diperoleh sbg berikut:
+
+BFS:
+- Total Waktu Pelatihan: 7224.36 detik (120.41 menit)
+- Leaderboard Model:
+```
+          rank  ensemble_weight                 type      cost    duration
+model_id
+19           1             0.36          extra_trees  0.009383   21.072647
+60           2             0.08    gradient_boosting  0.010183   16.786171
+31           3             0.06  k_nearest_neighbors  0.015790   42.528706
+2            4             0.04        random_forest  0.016411   69.673322
+30           5             0.02    gradient_boosting  0.016766  266.020723
+56           6             0.02           libsvm_svc  0.022251   13.372582
+25           7             0.02                  mlp  0.022474   40.842143
+9            8             0.04          extra_trees  0.022511   19.241413
+48           9             0.02  k_nearest_neighbors  0.026818    7.200868
+32          10             0.04        random_forest  0.027278   97.447137
+40          11             0.02          extra_trees  0.027595  714.226574
+11          12             0.02                  mlp  0.028262   11.889530
+59          13             0.02           libsvm_svc  0.059079   57.042980
+63          14             0.04  k_nearest_neighbors  0.084294    1.988960
+27          15             0.18             adaboost  0.087626   93.419876
+49          16             0.02          extra_trees  0.093763    4.783862
+```
+- Hasil Evaluasi Model: 0.9132 (Total Akurasi Model)
+```
+              precision    recall  f1-score   support
+
+Non-Predator     0.9741    0.9305    0.9518      3151
+    Predator     0.4659    0.7100    0.5626       269
+
+    accuracy                         0.9132      3420
+   macro avg     0.7200    0.8203    0.7572      3420
+weighted avg     0.9341    0.9132    0.9212      3420
+```
+
+
+DFS:
+- Total Waktu Pelatihan: 7201.46 detik (120.02 menit)
+- Leaderboard Model:
+```
+          rank  ensemble_weight                 type      cost   duration
+model_id
+150          1              1.0  k_nearest_neighbors  0.005484  37.870233
+```
+
+- Hasil Evaluasi Model: 0.8675 (Total Akurasi Model)
+```
+              precision    recall  f1-score   support
+
+Non-Predator     0.9808    0.8734    0.9240      3151
+    Predator     0.3502    0.7993    0.4870       269
+
+    accuracy                         0.8675      3420
+   macro avg     0.6655    0.8363    0.7055      3420
+weighted avg     0.9312    0.8675    0.8896      3420
+```
+
+Dari semua langkah-langkah ini ada beberapa kesimpulan yang bisa diambil, yaitu:
+
+1. Dataset Awal dan Filtering
+   - Dataset awal terdiri dari 23.479 data dengan proporsi jurnal predator sebanyak 2.210 dan non-predator sebanyak 21.269.
+   - Setelah proses filtering duplikasi berdasarkan tautan jurnal, dataset berkurang menjadi 23.085 data, dengan 1.931 jurnal predator dan 21.154 jurnal non-predator.
+
+2. Scraping Data
+   - Dari 23.085 tautan yang diproses, 17.095 berhasil di-scrape (74.05%), sedangkan 5.990 gagal (25.95%).
+   - Distribusi data berhasil: 1.341 jurnal predator (7.84%) dan 15.754 jurnal non-predator (92.16%).
+
+3. Proses Pembentukan Corpus DOM
+   - Setelah scraping, dilakukan ekstraksi tag HTML di dalam <body> menggunakan metode BFS dan DFS.
+   - Data kemudian dibagi menjadi 80% untuk training dan 20% untuk testing:
+     - BFS & DFS (Sama sebelum Oversampling)
+       - Train: 13.675 data (1.072 predator, 12.603 non-predator).
+       - Test: 3.420 data (269 predator, 3.151 non-predator).
+
+4. Vektorisasi dengan Doc2Vec
+   - Digunakan Doc2Vec dengan Distributed Memory (DM=1).
+   - Parameter utama: vector_size=100, window=5, min_count=1, epochs=20.
+
+5. Penanganan Ketidakseimbangan Data
+   - SMOTEENN digunakan untuk menyeimbangkan data:
+     - BFS Setelah Oversampling: 12.564 jurnal predator, 10.374 jurnal non-predator.
+     - DFS Setelah Oversampling: 12.567 jurnal predator, 10.450 jurnal non-predator.
+
+6. Pelatihan Model Menggunakan AutoML
+   - BFS:
+     - Waktu pelatihan: 7.224,36 detik (120,41 menit).
+     - Model terbaik: extra_trees dengan ensemble weight tertinggi (0.36).
+     - Akurasi: 91.32%.
+     - Recall kelas jurnal predator: 71.00%.
+   - DFS:
+     - Waktu pelatihan: 7.201,46 detik (120,02 menit).
+     - Model terbaik: k_nearest_neighbors dengan ensemble weight 1.0.
+     - Akurasi: 86.75%.
+     - Recall kelas jurnal predator: 79.93%.
+
+7. Kesimpulan Akhir
+   - BFS lebih unggul dalam akurasi keseluruhan (91.32%) dan memberikan model yang lebih stabil serta bervariasi.
+   - DFS memiliki recall lebih tinggi untuk jurnal predator (79.93%), tetapi precision lebih rendah, sehingga lebih banyak false positives.
+   - Waktu pelatihan antara BFS dan DFS hampir sama, tetapi BFS menghasilkan lebih banyak model dalam leaderboard AutoML.
+   - Jika tujuan utama adalah memaksimalkan recall jurnal predator, DFS lebih baik. Namun, jika mencari keseimbangan antara akurasi dan stabilitas model, BFS lebih direkomendasikan.
+
+
+Kira-kira dari bapak apakah ada saran terkait hal ini ? saya sendiri juga mau explore sedikit kira-kira apa yang bisa saya lakukan untuk mendapatkan model yg lebih baik.
+Terima kasih pak
