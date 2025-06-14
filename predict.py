@@ -1,16 +1,51 @@
 import requests
 import logging
-import pickle
+import joblib # Diubah dari pickle menjadi joblib
 import numpy as np
 from bs4 import BeautifulSoup
 from gensim.models.doc2vec import Doc2Vec
 from urllib.parse import urlparse
+import random
+
+# Misalnya NameFilter didefinisikan seperti ini saat menyimpan:
+class NameFilter:
+    def __init__(self, some_param=None):
+        self.some_param = some_param
+    def transform(self, x):
+        return x
 
 # Path model
 DOC2VEC_MODEL_PATH = "6_vectorized_journal_data/6_doc2vec_dfs_train.model"
 AUTOML_MODEL_PATH = "8_classification/dfs_90min/8_dfs_model.pkl"
 
-# Logging
+# ===== User-Agent Pool (optional untuk menghindari blokir) =====
+USER_AGENTS = [
+    # Chrome - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.112 Safari/537.36",
+
+    # Chrome - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.112 Safari/537.36",
+
+    # Firefox - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
+
+    # Firefox - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13.5; rv:126.0) Gecko/20100101 Firefox/126.0",
+
+    # Safari - macOS
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15",
+
+    # Edge - Windows
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.112 Safari/537.36 Edg/125.0.2535.67",
+
+    # Android - Chrome
+    "Mozilla/5.0 (Linux; Android 12; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.112 Mobile Safari/537.36",
+
+    # iPhone - Safari
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+]
+
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -28,7 +63,7 @@ def is_valid_url(url):
 def get_body_dom_structure(url):
     try:
         headers = {
-            "User-Agent": "Mozilla/5.0"
+            "User-Agent": random.choice(USER_AGENTS)
         }
         response = requests.get(url, headers=headers, timeout=15)
         if response.status_code != 200:
@@ -67,8 +102,8 @@ def extract_tags_dfs(dom):
 def load_models():
     logging.info("📥 Memuat model Doc2Vec dan AutoML...")
     doc2vec_model = Doc2Vec.load(DOC2VEC_MODEL_PATH)
-    with open(AUTOML_MODEL_PATH, "rb") as f:
-        automl_model = pickle.load(f)
+    # Menggunakan joblib.load() karena model disimpan dengan joblib.dump()
+    automl_model = joblib.load(AUTOML_MODEL_PATH)
     return doc2vec_model, automl_model
 
 # Fungsi prediksi
@@ -82,7 +117,11 @@ def predict(url, doc2vec_model, automl_model):
     if not dfs_tags:
         return None, "DOM corpus kosong. Tidak dapat melakukan inferensi."
 
+    # Periksa apakah model Doc2Vec mendukung infer_vector untuk list string
+    # Gensim 4.x biasanya menerima list of strings
     vector = doc2vec_model.infer_vector(dfs_tags).reshape(1, -1)
+
+    # autosklearn mengembalikan array numpy untuk predict dan predict_proba
     pred = automl_model.predict(vector)[0]
     prob = automl_model.predict_proba(vector)[0]
     confidence = max(prob)
@@ -96,7 +135,13 @@ if __name__ == "__main__":
     print("Masukkan tautan web jurnal yang ingin diuji.")
     print("="*60)
 
-    doc2vec_model, automl_model = load_models()
+    try:
+        doc2vec_model, automl_model = load_models()
+    except Exception as e:
+        logging.error(f"❌ Gagal memuat model: {e}")
+        print(f"❌ Terjadi kesalahan fatal saat memuat model: {e}")
+        print("Pastikan file model ada di lokasi yang benar dan tidak rusak.")
+        exit()
 
     while True:
         url = input("\n🔗 Tautan jurnal (atau ketik 'exit' untuk keluar): ").strip()
@@ -113,6 +158,8 @@ if __name__ == "__main__":
             print(f"❌ {error_msg}")
             continue
 
+        # autosklearn label 0 atau 1
+        print(f"Result: {result}")
         label, confidence = result
         label_str = "PREDATOR" if label == 1 else "NON-PREDATOR"
         print(f"\n📌 Hasil Prediksi: {label_str}")
