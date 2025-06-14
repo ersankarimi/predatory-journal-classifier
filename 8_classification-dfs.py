@@ -9,9 +9,9 @@ from sklearn.metrics import classification_report, accuracy_score
 from pprint import pprint
 
 # PILIH SALAH SATU TIME_LIMIT
-TIME_LIMIT = 600     # 10 Menit
+# TIME_LIMIT = 600     # 10 Menit
 # TIME_LIMIT = 900     # 15 Menit
-# TIME_LIMIT = 1800    # 30 Menit
+TIME_LIMIT = 1800    # 30 Menit
 # TIME_LIMIT = 2700    # 45 Menit
 # TIME_LIMIT = 3600    # 60 Menit / 1 Jam
 # TIME_LIMIT = 4500    # 75 Menit / 1 Jam 15 Menit
