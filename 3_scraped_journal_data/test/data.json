@@ -1,0 +1,49 @@
+{
+  "journal_title": "TEST",
+  "dom_structure": [
+    {
+      "tag": "h1",
+      "text": "text",
+      "children": []
+    },
+    {
+      "tag": "p",
+      "text": "text",
+      "children": []
+    },
+    {
+      "tag": "p",
+      "text": "text",
+      "children": []
+    },
+    {
+      "tag": "ul",
+      "children": [
+        {
+          "tag": "li",
+          "text": "text",
+          "children": []
+        },
+        {
+          "tag": "li",
+          "children": [
+            {
+              "tag": "img",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "p",
+      "text": "Buscar",
+      "children": []
+    },
+    {
+      "tag": "h1",
+      "text": "http://periodicos.ufpb.br/index.php/prolingua/index",
+      "children": []
+    }
+  ]
+}
