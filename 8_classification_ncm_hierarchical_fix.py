@@ -9,13 +9,11 @@ from sklearn.metrics import classification_report, accuracy_score, silhouette_sc
 from collections import Counter
 from sklearn.preprocessing import StandardScaler
 
-# --- Konfigurasi Umum ---
 METHOD_NAME = "dfs"
-CLASSIFICATION_DIR = "8_classification_hc_ncm" # Mengubah direktori output
+CLASSIFICATION_DIR = "8_classification_hc_ncm"
 
 os.makedirs(CLASSIFICATION_DIR, exist_ok=True)
 
-# Menggunakan METHOD_NAME di LOG_FILE untuk membedakan log
 LOG_FILE = os.path.join(CLASSIFICATION_DIR, f"8_{METHOD_NAME}_scipy_hierarchical_auto_improved.log")
 
 # Konfigurasi logging
@@ -25,7 +23,6 @@ logging.basicConfig(
     handlers=[logging.FileHandler(LOG_FILE), logging.StreamHandler()],
 )
 
-# --- Fungsi Pemuatan Data ---
 def load_data(vector_path, label_path):
     """Memuat data vektor dan label dari file .npy."""
     if not os.path.exists(vector_path) or not os.path.exists(label_path):
@@ -40,7 +37,6 @@ def load_data(vector_path, label_path):
         logging.error(f"❌ Gagal memuat data dari {vector_path} atau {label_path}: {e}")
         return None, None
 
-# --- Fungsi Analisis Komposisi Kluster ---
 def analyze_cluster_composition(cluster_labels, y_train):
     """Analisis komposisi label (Predator/Non-Predator) di setiap cluster."""
     cluster_composition = {}
@@ -72,7 +68,6 @@ def analyze_cluster_composition(cluster_labels, y_train):
 
     return cluster_composition
 
-# --- Fungsi Pelatihan Model ---
 def train_model(X_train, y_train, linkage_method, distance_threshold):
     """Melatih model dengan Hierarchical Clustering SciPy dan NCM."""
     logging.info(f"⏳ Pelatihan dimulai dengan linkage='{linkage_method}', distance_threshold={distance_threshold}...")
@@ -142,7 +137,6 @@ def train_model(X_train, y_train, linkage_method, distance_threshold):
         logging.error(f"❌ Terjadi kesalahan selama pelatihan: {e}")
         return scaler, None, None, {}, -1, False
 
-# --- Fungsi Prediksi dan Evaluasi ---
 def predict_and_evaluate(scaler, clf, cluster_mapping, X_test, y_test, y_train_global):
     """
     Memprediksi dan mengevaluasi model.
@@ -213,7 +207,6 @@ def predict_and_evaluate(scaler, clf, cluster_mapping, X_test, y_test, y_train_g
         logging.error(f"❌ Terjadi kesalahan selama prediksi atau evaluasi: {e}")
         return None, None, None
 
-# --- Fungsi Simpan/Muat Model ---
 def save_model(model, scaler, linkage_matrix, cluster_mapping, silhouette_avg, model_path):
     """Menyimpan model dan artefak terkait."""
     try:
@@ -246,7 +239,6 @@ def load_model(model_path):
         logging.error(f"❌ Gagal memuat model dari {model_path}: {e}")
         return None, None, None, None, None
 
-# --- Main Execution ---
 if __name__ == "__main__":
     logging.info("=" * 80)
     logging.info(f"🚀 MULAI TRAINING MODEL IMPROVED: {METHOD_NAME.upper()}")
