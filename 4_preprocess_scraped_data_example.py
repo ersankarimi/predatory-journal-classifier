@@ -10,7 +10,7 @@ JSON_DFS = os.path.join(OUTPUT_DIR, "4_dfs_preprocess_scraped_data.json")
 JSON_BFS = os.path.join(OUTPUT_DIR, "4_bfs_preprocess_scraped_data.json")
 LOG_FILE = os.path.join(OUTPUT_DIR, "4_preprocess_scraped_data.log")
 
-SCRAPED_FILE = "3_scraped_journal_data/3_scraped_journal_data.json"
+SCRAPED_FILE = "3_scraped_journal_data/test/data.json"
 
 
 logging.basicConfig(
