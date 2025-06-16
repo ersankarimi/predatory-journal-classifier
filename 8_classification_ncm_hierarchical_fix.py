@@ -16,7 +16,6 @@ os.makedirs(CLASSIFICATION_DIR, exist_ok=True)
 
 LOG_FILE = os.path.join(CLASSIFICATION_DIR, f"8_{METHOD_NAME}_scipy_hierarchical_auto_improved.log")
 
-# Konfigurasi logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -43,19 +42,17 @@ def analyze_cluster_composition(cluster_labels, y_train):
     unique_clusters = np.unique(cluster_labels)
     logging.info(f"Analisis komposisi untuk {len(unique_clusters)} cluster.")
     for cluster_id in unique_clusters:
-        # Filter label yang termasuk dalam cluster_id ini
-        # Tidak perlu cek `if cluster_id in cluster_labels` karena unique_clusters sudah dari situ
         labels_in_cluster = y_train[cluster_labels == cluster_id]
 
         if len(labels_in_cluster) == 0:
             logging.warning(
                 f"⚠️ Cluster {cluster_id} kosong! Tidak dapat menentukan label mayoritas."
             )
-            cluster_composition[cluster_id] = -1  # Menandai sebagai tidak terdefinisi
+            cluster_composition[cluster_id] = -1
             continue
 
         label_counts = Counter(labels_in_cluster)
-        if not label_counts: # Seharusnya tidak terjadi jika len(labels_in_cluster) > 0
+        if not label_counts:
             logging.warning(f"⚠️ Counter label kosong untuk Cluster {cluster_id}. Melewatkan.")
             cluster_composition[cluster_id] = -1
             continue
@@ -63,7 +60,7 @@ def analyze_cluster_composition(cluster_labels, y_train):
         most_common_label = label_counts.most_common(1)[0][0]
         cluster_composition[cluster_id] = most_common_label
         logging.info(
-            f"🔍 Cluster {cluster_id}: Mayoritas label = {most_common_label} (Counts: {dict(label_counts)})" # Ubah Counter ke dict untuk output log yang lebih rapi
+            f"🔍 Cluster {cluster_id}: Mayoritas label = {most_common_label} (Counts: {dict(label_counts)})"
         )
 
     return cluster_composition
@@ -81,51 +78,42 @@ def train_model(X_train, y_train, linkage_method, distance_threshold):
     logging.info(f"🔍 Melakukan hierarchical clustering...")
 
     try:
-        # Hitung linkage matrix
         Z = linkage(X_train_scaled, method=linkage_method)
         logging.info(f"✅ Linkage matrix dihitung. Shape: {Z.shape}")
 
-        # Membuat cluster dengan memotong dendrogram pada distance_threshold
         cluster_labels = fcluster(Z, t=distance_threshold, criterion='distance')
 
-        # Ubah label cluster agar mulai dari 0 (opsional, fcluster biasanya mulai dari 1)
-        # Ini penting jika Anda ingin label kluster konsisten (0-indexed)
         if cluster_labels.min() == 1:
              cluster_labels = cluster_labels - 1
 
         num_clusters = len(np.unique(cluster_labels))
         logging.info(f"✅ Clustering selesai. Jumlah cluster yang terbentuk: {num_clusters}")
 
-        # Handle kasus jika hanya ada 1 cluster
         if num_clusters <= 1:
             logging.warning(f"⚠️ Hanya terbentuk {num_clusters} cluster dengan parameter ini. Melewatkan NCM dan evaluasi.")
-            return scaler, Z, None, {}, -1, False # Menambahkan flag success = False
+            return scaler, Z, None, {}, -1, False
 
         # Hitung silhouette score
         try:
-            # Periksa apakah ada setidaknya 2 cluster (untuk silhouette_score)
             if num_clusters > 1:
                 silhouette_avg = silhouette_score(X_train_scaled, cluster_labels)
                 logging.info(f"📊 Silhouette Score: {silhouette_avg:.4f}")
             else:
-                silhouette_avg = -1 # Tidak dapat menghitung jika hanya 1 cluster
+                silhouette_avg = -1
                 logging.warning("⚠️ Tidak dapat menghitung silhouette score karena hanya ada 1 cluster.")
         except Exception as e:
             logging.warning(f"⚠️ Gagal menghitung silhouette score: {e}")
             silhouette_avg = -1
 
-        # Analisis komposisi cluster
         cluster_mapping = analyze_cluster_composition(cluster_labels, y_train)
 
-        # Handle kasus jika cluster_mapping kosong
         if not cluster_mapping:
              logging.warning("⚠️ Cluster mapping kosong. Tidak dapat melatih NCM.")
              return scaler, Z, None, cluster_mapping, silhouette_avg, False
 
-        # Melatih Nearest Centroid Classifier
         logging.info("🧠 Melatih Nearest Centroid Classifier berdasarkan cluster hasil clustering...")
         clf = NearestCentroid(metric="euclidean")
-        clf.fit(X_train_scaled, cluster_labels) # Melatih NCM dengan data scaled dan label cluster
+        clf.fit(X_train_scaled, cluster_labels)
         logging.info("✅ NCM Classifier selesai dilatih.")
 
         training_time = time.time() - start_time
@@ -145,7 +133,6 @@ def predict_and_evaluate(scaler, clf, cluster_mapping, X_test, y_test, y_train_g
     logging.info("📌 Memulai prediksi dan evaluasi...")
     start_time = time.time()
 
-    # Preprocessing data uji dengan scaler yang sama
     if scaler:
         X_test_scaled = scaler.transform(X_test)
         logging.info("✅ Data uji distandardisasi.")
@@ -160,22 +147,18 @@ def predict_and_evaluate(scaler, clf, cluster_mapping, X_test, y_test, y_train_g
 
 
     try:
-        # Prediksi label cluster menggunakan NCM
         cluster_labels_pred = clf.predict(X_test_scaled)
 
-        # Mapping label cluster ke label kelas asli
         y_pred = np.array(
             [cluster_mapping.get(cluster_id, -1) for cluster_id in cluster_labels_pred]
         )
 
-        # Menangani cluster_id yang tidak terdefinisi dalam mapping (-1)
         if -1 in y_pred:
             logging.warning(
                 "⚠️ Terdapat cluster yang tidak terdefinisi dalam mapping (label -1). "
                 "Menetapkan label mayoritas global dari data latih."
             )
             try:
-                # Menggunakan y_train_global untuk mendapatkan kelas mayoritas
                 most_frequent_class_global = Counter(y_train_global).most_common(1)[0][0]
                 y_pred[y_pred == -1] = most_frequent_class_global
                 logging.info(f"✅ Label -1 diganti dengan label mayoritas global: {most_frequent_class_global}")
@@ -210,7 +193,6 @@ def predict_and_evaluate(scaler, clf, cluster_mapping, X_test, y_test, y_train_g
 def save_model(model, scaler, linkage_matrix, cluster_mapping, silhouette_avg, model_path):
     """Menyimpan model dan artefak terkait."""
     try:
-        # Pastikan linkage_matrix adalah array numpy sebelum disimpan
         if isinstance(linkage_matrix, np.ndarray):
             joblib.dump((model, scaler, linkage_matrix, cluster_mapping, silhouette_avg), model_path)
             logging.info(
@@ -244,17 +226,14 @@ if __name__ == "__main__":
     logging.info(f"🚀 MULAI TRAINING MODEL IMPROVED: {METHOD_NAME.upper()}")
     logging.info("=" * 80)
 
-    # Jalur file data
     train_vector_path = f"7_oversampling/7_{METHOD_NAME}_train_vectors_oversampled.npy"
     train_label_path = f"7_oversampling/7_{METHOD_NAME}_train_labels_oversampled.npy"
     test_vector_path = f"6_vectorized_journal_data/6_{METHOD_NAME.lower()}_test_vectors.npy"
     test_label_path = f"6_vectorized_journal_data/6_{METHOD_NAME.lower()}_test_labels.npy"
-    # Menggunakan CLASSIFICATION_DIR yang baru
     model_path = os.path.join(
         CLASSIFICATION_DIR, f"8_{METHOD_NAME}_scipy_hierarchical_auto_improved_model.pkl"
     )
 
-    # Memuat data
     X_train, y_train = load_data(train_vector_path, train_label_path)
     X_test, y_test = load_data(test_vector_path, test_label_path)
 
@@ -263,9 +242,7 @@ if __name__ == "__main__":
         logging.shutdown()
         exit()
 
-    # Parameter tuning options
     linkage_methods = ["ward", "average", "complete"]
-    # Menambahkan rentang distance_threshold yang lebih luas dan lebih granular
     distance_threshold_options = [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0]
 
     best_accuracy = 0
@@ -273,19 +250,17 @@ if __name__ == "__main__":
     best_scaler = None
     best_linkage = None
     best_cluster_mapping = None
-    best_silhouette_avg = -1 # Inisialisasi dengan -1 karena silhouette_score bisa negatif
+    best_silhouette_avg = -1
     best_distance_threshold = None
     best_linkage_method = None
     best_report = None
     best_cm = None
 
-    # Loop melalui semua kombinasi parameter
     for linkage_method in linkage_methods:
         for distance_threshold in distance_threshold_options:
             logging.info("=" * 60)
             logging.info(f"*** Mencoba linkage='{linkage_method}', distance_threshold={distance_threshold} ***")
 
-            # Melatih model
             scaler, linkage_matrix, model, cluster_mapping, silhouette_avg, training_success = train_model(
                 X_train, y_train, linkage_method=linkage_method, distance_threshold=distance_threshold
             )
@@ -294,14 +269,10 @@ if __name__ == "__main__":
                 logging.warning("⚠️ Pelatihan tidak berhasil untuk parameter ini. Melewatkan evaluasi.")
                 continue
 
-            # Memprediksi dan mengevaluasi
-            # Mengirimkan y_train agar `predict_and_evaluate` dapat menghitung mayoritas global
             report, accuracy, cm = predict_and_evaluate(
                 scaler, model, cluster_mapping, X_test, y_test, y_train # Ditambahkan
             )
 
-            # Membandingkan dan menyimpan model terbaik
-            # Pastikan akurasi valid (tidak None)
             if accuracy is not None and accuracy > best_accuracy:
                 best_accuracy = accuracy
                 best_model = model
@@ -314,7 +285,6 @@ if __name__ == "__main__":
                 best_report = report
                 best_cm = cm
 
-    # Simpan model terbaik
     if best_model is not None and best_scaler is not None and best_linkage is not None and best_cluster_mapping is not None:
         save_model(
             best_model,
@@ -336,7 +306,7 @@ if __name__ == "__main__":
     if best_model is not None:
         logging.info(f"Akurasi: {best_accuracy:.4f}")
         logging.info(f"Parameter Terbaik: linkage='{best_linkage_method}', distance_threshold={best_distance_threshold}")
-        logging.info(f"Silhouette Score (Train): {best_silhouette_avg:.4f}") # Menampilkan silhouette score
+        logging.info(f"Silhouette Score (Train): {best_silhouette_avg:.4f}")
         if best_report:
              logging.info("📊 Laporan Klasifikasi Model Terbaik:\n%s", best_report)
         if best_cm is not None:
